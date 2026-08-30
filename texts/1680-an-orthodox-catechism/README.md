@@ -1,13 +1,9 @@
-# An Orthodox Catechism (1680)
+# An Orthodox Catechism (Collins, 1680)
 
-Hercules Collins, *An Orthodox Catechism: Being the Sum of Christian Religion, Contained in the Law and Gospel* (London, 1680).
+Modern-English text of Hercules Collins, *An Orthodox Catechism* (London, 1680).
 
-A Particular Baptist recension of the Heidelberg Catechism, written for the baptized church meeting in Old Gravel Lane, London.
+This is **not** the 1680 spelling. The Commonplace vault note records the edition as modern English from [1689.com](https://1689.com/an-orthodox-catechism). Collins’s original has 152 questions; this recension has **148**.
 
-- `BOOK.md` — the whole work
-- `preface.md`
-- `questions/001.md` … `152.md`
-- `nicene-creed.md`, `athanasian-creed.md`
-- `appendix-singing.md`
+`BOOK.md` is the whole catechism: questions, answers, and scripture proofs. Obsidian wiki-links from the vault were turned into plain citations. Vault study notes (Observation, Reflection, Implications) were left out of this file.
 
-Public domain. Transcription follows the 1680 wording.
+Collins, pastor of the baptized church in Old Gravel Lane, recast the Heidelberg Catechism for Particular Baptists after the Second London Confession.

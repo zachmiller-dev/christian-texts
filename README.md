@@ -6,9 +6,9 @@ Each work lives in its own directory under `texts/`. Add another text by creatin
 
 ## Texts
 
-| Work | Author | Year |
+| Work | Author | Edition |
 | --- | --- | --- |
-| [An Orthodox Catechism](texts/1680-an-orthodox-catechism/) | Hercules Collins | 1680 |
+| [An Orthodox Catechism](texts/1680-an-orthodox-catechism/) | Hercules Collins (1680) | Modern English (1689.com), from the Commonplace vault |
 
 ## Layout
 
@@ -17,19 +17,12 @@ texts/
   1680-an-orthodox-catechism/
     README.md
     BOOK.md
-    preface.md
-    questions/
-    …
 ```
-
-`BOOK.md` is the whole work in one file. Longer works may also split into parts.
 
 ## Source
 
-Collins (1680) is public domain. The files here follow the original London edition (spelling and proofs of 1680, not the 2014 modernization), compiled from the SVRBC `aoc1680` transcription of that edition.
-
-The Obsidian Commonplace vault at `/Users/zachmiller/Library/Mobile Documents/iCloud~md~obsidian/Documents/Commonplace` is the intended local source for further texts. That path is not available in this cloud environment. When a vault note should replace a file here, copy it into the matching `texts/` directory.
+The Collins note in Commonplace (`An Orthodox Catechism (Collins 1680).md`) is a modern-English recension, 148 questions, ingested from 1689.com. The 1680 original (152 questions) is on [Internet Archive](https://archive.org/details/bim_early-english-books-1641-1700_an-orthodox-catechism-_collins-hercules_1680).
 
 ## License
 
-The historical texts are in the public domain. Repository scaffolding is dedicated to the public domain under CC0 (see `LICENSE`).
+The historical catechism is in the public domain. Repository scaffolding is dedicated to the public domain under CC0 (see `LICENSE`).
