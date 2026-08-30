@@ -21,9 +21,9 @@ retrieved: 2026-04-19
 
 ## Texts
 
-| Work | Author | Edition |
+| Work | Author | Editions |
 | --- | --- | --- |
-| [An Orthodox Catechism](texts/1680-an-orthodox-catechism/) | Hercules Collins (1680) | Modern English (1689.com), from the Commonplace vault |
+| [An Orthodox Catechism](texts/1680-an-orthodox-catechism/) | Hercules Collins (1680) | [Original 1680](texts/1680-an-orthodox-catechism/original-1680.md) · [Modern English](texts/1680-an-orthodox-catechism/modern-english.md) |
 
 ## Layout
 
@@ -31,12 +31,13 @@ retrieved: 2026-04-19
 texts/
   1680-an-orthodox-catechism/
     README.md
-    BOOK.md
+    original-1680.md
+    modern-english.md
 ```
 
 ## Source
 
-The Collins note in Commonplace (`An Orthodox Catechism (Collins 1680).md`) is a modern-English recension, 148 questions, ingested from 1689.com. The 1680 original (152 questions) is on [Internet Archive](https://archive.org/details/bim_early-english-books-1641-1700_an-orthodox-catechism-_collins-hercules_1680).
+Collins is present in both the 1680 wording (152 questions, plus preface, creeds, and the singing appendix) and a modern-English recension (148 questions) from the Commonplace vault / 1689.com. The 1680 scan is on [Internet Archive](https://archive.org/details/bim_early-english-books-1641-1700_an-orthodox-catechism-_collins-hercules_1680).
 
 ## License
 
