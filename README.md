@@ -2,7 +2,22 @@
 
 Markdown sources for public-domain Christian texts. This repository is a corpus, not an app.
 
-Each work lives in its own directory under `texts/`. Add another text by creating a folder and a short `README.md` that names the author, title, date, and edition used.
+Each work lives in its own directory under `texts/`. The text file itself carries YAML frontmatter:
+
+```yaml
+---
+title: An Orthodox Catechism
+author: Hercules Collins
+date: 1680
+edition: modern English
+source: https://1689.com/an-orthodox-catechism
+retrieved: 2026-04-19
+---
+```
+
+- `date` is when the work was first published.
+- `source` is the edition this file was taken from.
+- `retrieved` is when that copy was pulled (ISO 8601).
 
 ## Texts
 

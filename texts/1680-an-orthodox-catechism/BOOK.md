@@ -2,12 +2,11 @@
 title: An Orthodox Catechism
 subtitle: Being the Sum of Christian Religion, Contained in the Law and Gospel
 author: Hercules Collins
-year: 1680
+date: 1680
 edition: modern English
-ingested_from: Commonplace vault note “An Orthodox Catechism (Collins 1680).md”
-text_source: https://1689.com/an-orthodox-catechism
-1680_scan: https://archive.org/details/bim_early-english-books-1641-1700_an-orthodox-catechism-_collins-hercules_1680
-questions: 148
+source: https://1689.com/an-orthodox-catechism
+retrieved: 2026-04-19
+original: https://archive.org/details/bim_early-english-books-1641-1700_an-orthodox-catechism-_collins-hercules_1680
 ---
 
 # An Orthodox Catechism
