@@ -370,7 +370,7 @@ def ingest_abstract() -> None:
         "format": "confession",
     }
     md = dump_frontmatter(front) + "# Abstract of Principles\n\n" + body.lstrip()
-    d = TEXTS / "1858-abstract-of-principles"
+    d = TEXTS / "abstract-of-principles"
     write_pair(d, "original", md)
     write_readme(
         d,
@@ -384,27 +384,16 @@ def ingest_abstract() -> None:
 
 
 def ingest_charleston() -> None:
-    raw = (UPLOADS / "A_Summary_of_Church_Discipline__Charleston__9781.md").read_text(encoding="utf-8")
-    body = vault_body(raw)
-    body = re.sub(r"^### ", "## ", body, flags=re.M)
-    front = {
-        "title": "A Summary of Church Discipline",
-        "author": "Charleston Baptist Association",
-        "date": 1774,
-        "edition": "original",
-        "source": "https://founders.org/library/a-summary-of-church-discipline/",
-        "retrieved": "2026-08-17",
-        "location": "Charleston, South Carolina",
-        "format": "confession",
-    }
-    md = dump_frontmatter(front) + "# A Summary of Church Discipline\n\n" + body.lstrip()
-    d = TEXTS / "1774-charleston-summary"
-    write_pair(d, "original", md)
+    from format_charleston import main as format_charleston_main
+
+    format_charleston_main()
+    d = TEXTS / "1774-charleston-church-discipline"
     write_readme(
         d,
         "A Summary of Church Discipline (Charleston, 1774)",
         [
             "Baptist Association in Charleston, South Carolina. Public domain.",
+            "Formatted from [Founders](https://founders.org/library/a-summary-of-church-discipline/).",
             "`original.md` / `original.json`.",
         ],
     )
@@ -550,8 +539,8 @@ retrieved: 2026-04-19
 | [Second London Confession](texts/1689-london-baptist-confession/) (1677/1689) | [md](texts/1689-london-baptist-confession/original.md) · [json](texts/1689-london-baptist-confession/original.json) |
 | [An Orthodox Catechism](texts/1680-an-orthodox-catechism/) (Collins, 1680) | [original md](texts/1680-an-orthodox-catechism/original-1680.md) · [original json](texts/1680-an-orthodox-catechism/original-1680.json) · [modern md](texts/1680-an-orthodox-catechism/modern-english.md) · [modern json](texts/1680-an-orthodox-catechism/modern-english.json) |
 | [Baptist Catechism](texts/1693-baptist-catechism/) (Keach / Collins, 1693) | [md](texts/1693-baptist-catechism/original.md) · [json](texts/1693-baptist-catechism/original.json) |
-| [Abstract of Principles](texts/1858-abstract-of-principles/) (1858) | [md](texts/1858-abstract-of-principles/original.md) · [json](texts/1858-abstract-of-principles/original.json) |
-| [Charleston Summary of Church Discipline](texts/1774-charleston-summary/) (1774) | [md](texts/1774-charleston-summary/original.md) · [json](texts/1774-charleston-summary/original.json) |
+| [Abstract of Principles](texts/abstract-of-principles/) (1858) | [md](texts/abstract-of-principles/original.md) · [json](texts/abstract-of-principles/original.json) |
+| [Charleston Summary of Church Discipline](texts/1774-charleston-church-discipline/) (1774) | [md](texts/1774-charleston-church-discipline/original.md) · [json](texts/1774-charleston-church-discipline/original.json) |
 
 The 1644 First London Confession is not included (1646 only).
 
