@@ -1,3 +1,5 @@
 .DS_Store
 .obsidian
 agent-tools/
+node_modules/
+.next/
