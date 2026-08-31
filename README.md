@@ -1,8 +1,11 @@
 # Christian Texts
 
-Markdown sources for public-domain Christian texts. This repository is a corpus, not an app.
+Markdown and JSON sources for public-domain Christian texts. This repository is a corpus, not an app.
 
-Each work lives in its own directory under `texts/`. The text file itself carries YAML frontmatter:
+- **Markdown** is for reading (agents and people).
+- **JSON** uses the Creeds.json shape (`Metadata` + `Data`) for structured lookup.
+
+Each text file has YAML frontmatter:
 
 ```yaml
 ---
@@ -15,30 +18,33 @@ retrieved: 2026-04-19
 ---
 ```
 
-- `date` is when the work was first published.
-- `source` is the edition this file was taken from.
-- `retrieved` is when that copy was pulled (ISO 8601).
+- `date` — first publication
+- `source` — edition this file was taken from
+- `retrieved` — when that copy was pulled (ISO 8601)
 
 ## Texts
 
-| Work | Author | Editions |
-| --- | --- | --- |
-| [An Orthodox Catechism](texts/1680-an-orthodox-catechism/) | Hercules Collins (1680) | [Original 1680](texts/1680-an-orthodox-catechism/original-1680.md) · [Modern English](texts/1680-an-orthodox-catechism/modern-english.md) |
+| Work | Files |
+| --- | --- |
+| [Apostles' Creed](texts/apostles-creed/) | [md](texts/apostles-creed/original.md) · [json](texts/apostles-creed/original.json) |
+| [Nicene Creed](texts/nicene-creed/) | [md](texts/nicene-creed/original.md) · [json](texts/nicene-creed/original.json) |
+| [Athanasian Creed](texts/athanasian-creed/) | [md](texts/athanasian-creed/original.md) · [json](texts/athanasian-creed/original.json) |
+| [Chalcedonian Definition](texts/chalcedonian-definition/) | [md](texts/chalcedonian-definition/original.md) · [json](texts/chalcedonian-definition/original.json) |
+| [Canons of Dort](texts/canons-of-dort/) (1619) | [md](texts/canons-of-dort/original.md) · [json](texts/canons-of-dort/original.json) |
+| [Savoy Declaration](texts/1658-savoy-declaration/) (1658) | [md](texts/1658-savoy-declaration/original.md) · [json](texts/1658-savoy-declaration/original.json) |
+| [First London Confession](texts/1646-first-london/) (1646) | [md](texts/1646-first-london/original.md) · [json](texts/1646-first-london/original.json) |
+| [Second London Confession](texts/1689-london-baptist-confession/) (1677/1689) | [md](texts/1689-london-baptist-confession/original.md) · [json](texts/1689-london-baptist-confession/original.json) |
+| [An Orthodox Catechism](texts/1680-an-orthodox-catechism/) (Collins, 1680) | [original md](texts/1680-an-orthodox-catechism/original-1680.md) · [original json](texts/1680-an-orthodox-catechism/original-1680.json) · [modern md](texts/1680-an-orthodox-catechism/modern-english.md) · [modern json](texts/1680-an-orthodox-catechism/modern-english.json) |
+| [Baptist Catechism](texts/1693-baptist-catechism/) (Keach / Collins, 1693) | [md](texts/1693-baptist-catechism/original.md) · [json](texts/1693-baptist-catechism/original.json) |
+| [Abstract of Principles](texts/1858-abstract-of-principles/) (1858) | [md](texts/1858-abstract-of-principles/original.md) · [json](texts/1858-abstract-of-principles/original.json) |
+| [Charleston Summary of Church Discipline](texts/1774-charleston-summary/) (1774) | [md](texts/1774-charleston-summary/original.md) · [json](texts/1774-charleston-summary/original.json) |
 
-## Layout
+The 1644 First London Confession is not included (1646 only).
 
-```
-texts/
-  1680-an-orthodox-catechism/
-    README.md
-    original-1680.md
-    modern-english.md
-```
+## Stan Reeves modern 1689
 
-## Source
-
-Collins is present in both the 1680 wording (152 questions, plus preface, creeds, and the singing appendix) and a modern-English recension (148 questions) from the Commonplace vault / 1689.com. The 1680 scan is on [Internet Archive](https://archive.org/details/bim_early-english-books-1641-1700_an-orthodox-catechism-_collins-hercules_1680).
+Not in this repo. Reeves’s modern English is copyrighted. Print copies for church use are allowed; posting on the internet is not. See [Founders](https://founders.org/library-book/1689-confession/) and [reeveshome.org/modern1689](https://reeveshome.org/modern1689/1689_modern.pdf).
 
 ## License
 
-The historical catechism is in the public domain. Repository scaffolding is dedicated to the public domain under CC0 (see `LICENSE`).
+Historical texts here are in the public domain (or CC0 TCP for Savoy). Repository scaffolding is CC0 (see `LICENSE`).

@@ -1,0 +1,147 @@
+---
+title: Savoy Declaration
+author: John Owen; Philip Nye; Congregational elders at the Savoy
+date: 1658
+edition: original
+source: "https://github.com/textcreationpartnership/A89790"
+retrieved: 2026-08-31
+location: Savoy, London
+language: English
+format: confession
+---
+
+# Savoy Declaration
+
+## Chapter 1. Of the Holy Scripture.
+
+**1.** ALthough the Light of Nature, and the Works of Creation and Providence, do so far manifest the Goodnesse, Wisdom, and Power of God, as to leave men unexcusable; yet are they not sufficient to give that knowledge of God and of his Will, which is necessary unto salvation: Therefore it pleased the Lord at sundry times, and in divers manners to reveal Himself, and to declare that his Will unto his Church; and afterwards for the better preserving and propagating of the truth, and for the more sure establishment and comfort of the Church against the corruption of the flesh, and the malice of Satan and of the World, to commit the same wholly unto writing: which maketh the holy Scripture to be most necessary; those former wayes of Gods revealing his Will unto his people, being now ceased.
+
+**2.** Of the Old Testament. Genesis, Exodus, Leviticus, Numbers, Deuteronomy, Joshua, Judges, Ruth, 1 Samuel, 2 Samuel, 1 Kings, 2 Kings, 1 Chronicles, 2 Chronicles, Ezra, Nehemiah, Esther, Job, Psalms, Proverbs, Ecclesiastes, The Song of Songs, Isaiah, Jeremiah, Lamentations Ezekiel, Daniel, Hosea, Joel, Amos, Obadiah, Jonah, Micah, Nahum, Habakkuk, Zephaniah, Haggai, Zechariah, Malachi.
+
+**3.** Of the New Testament. Mathew, Mark, Luke, John, The Acts of the Apostles, Pauls Epistle to the Romans, 1 Corinthians, 2 Corinthians, Galatians, Ephesians, Phillippians, Colossians, 1 Thessalonians, 2 Thessalonians, 1 To Timothy, 2 To Timothy, To Titus, To Philemon, The Epistle to the Hebrews, The Epistle of James, The first and second Epistles of Peter, The first, second and third Epistles of John, The Epistle of Jude, The Revelation.
+
+**4.** All which are given by the inspiration of God to be the Rule of Faith and Life.
+
+## Chapter 2. Of God and of the Holy Trinity.
+
+**1.** THere is but one onely living and true God; who is infinite in Being and Perfection ▪ a most pure Spirit, invisible, without body, parts, or passions, immutable, immense, eternal, incomprehensible, almighty, most wise, most holy, most free, most absolute, working all things according to the Counsel of his own immutable, and most righteous Will, for his own Glory, most loving, gracious, merciful, long-suffering, abundant in goodness and truth, forgiving iniquity, transgression and sin, the rewarder of them that diligently seek him; and withal, most just and terrible in his Judgments, hating all sin, and who will by no means clear the guilty.
+
+## Chapter 3. Of Gods Eternal Decree.
+
+**1.** GOD from all eternity did by the most wise and holy Counsel of his own Will, freely and unchangeably ordain whatsoever comes to passe: Yet so, as thereby neither is God the Author of sin, nor is violence offered to the will of the Creatures, nor is the liberty or contingency of second Causes taken away, but rather established.
+
+## Chapter 4. Of Creation.
+
+**1.** IT pleased God the Father, Son, and Holy Ghost, for the manifestation of the glory of his eternal Power, Wisdom, and Goodness, in the beginning, to create or make of nothing the world, and all things therein, whether visible or invisible, in the space of six dayes, and all very good.
+
+## Chapter 5. Of Providence.
+
+**1.** GOD the great Creator of all things, doth uphold, direct, dispose and govern all creatures, actions and things from the greatest even to the least, by his most wise and holy Providence, according unto his infallible fore-knowledge, and the free and immutable counsel of his own Will, to the praise of the glory of his Wisdom, Power, Justice, Goodness and Mercy.
+
+## Chapter 6. Of the fall of Man, of Sin, and of the Punishment thereof.
+
+**1.** GOD having made a Covenant of Works and Life, thereupon, with our first Parents, and all their posterity in them, they being seduced by the subtilty and temptation of Satan, did wilfully transgress the Law of their Creation, and break the Covenant in eating the forbidden fruit.
+
+## Chapter 7. Of Gods Covenant with Man.
+
+**1.** THe distance between God and the Creature is so great, that although reasonable creatures do owe obedience unto him as their Creator, yet they could never have attained the reward of life, but by some voluntary condescension on Gods part, which he hath been pleased to express by way of Covenant.
+
+## Chapter 8. Of Christ the Mediator.
+
+**1.** IT pleased God, in his eternal purpose, to chuse and ordain the Lord Jesus his only begotten Son, according to a Covenant made between them both, to be the Mediator between God and Man; the Prophet, Priest, and King, and Head and Saviour of his Church, the Heir of all things, and judge of the World; unto whom he did from all eternity give a people to be his seed, and to be by him in time redeemed, called, justified, sanctied, and gloriyed.
+
+## Chapter 9. Of Free Will.
+
+**1.** GOd hath ended the Will of man with that natural liberty and power of acting upon choice, that it is neither forced, nor by any absolute necessity of Nature determined to do good or evil.
+
+## Chapter 10. Of Effectual Calling.
+
+**1.** ALL those whom God hath predestinted unto life, and those only, he is pleased in his appointed and accepted time effectually to call by his Word and Spirit, out of that state of sin and death in which they are by nature, to grace and salvation by Jesus Christ, inlightning their minds spiritually and savingly to understand the things of God, taking away their heart of stone, and giving unto them an heart of flesh, renewing their wills, and by his Almighty power determining them to that which is good, and effectually drawing them to Jesus Christ; yet so, as they come most freely, being made willing by his grace.
+
+## Chapter 11. Of Justification.
+
+**1.** THose whom God effectually calleth, he also freely justifieth, not by infusing righteousnesse into them, but by pardoning their sins, and by accounting and accepting their persons as righteous, not for any thing wrought in them, or done by them, but for Christs sake alone; nor by imputing Faith it self, the act of believing, or any other Evangelical obedience to them, as their righteousness, but by imputing Christs active obedience unto the whole Law, and passive obedience in his death, for their whole and sole righteousness, they receiving and resting on him and his righteousness by Faith; which Faith they have not of themselves, it is the gift of God.
+
+## Chapter 12. Of Adoption.
+
+**1.** ALL those that are justified, God vouchsafeth in and for his only Son Jesus Christ, to make partakers of the grace of Adoption, by which they are taken into the number, and enjoy the liberties and priviledges of the Children of God, have his Name put upon them, receive the Spirit of Adoption, have accesse to the Throne of Grace with boldness, are enabled to cry, Abba, Father, are pitied, protected, provided for, and chastened by him as by a father, yet never cast off, but sealed to the day of Redemption, and inherit the Promises as Heirs of everlasting Salvation.
+
+## Chapter 13. Of Sanctification.
+
+**1.** THey that are united to Christ, effectually called and regenerated, having a new heart and a new spirit created in them, through the vertue of Christs death and resurrection, are also further sanctified really and personally through the same vertue, by his Word and Spirit dwelling in them; the dominion of the whole body of sin is destroyed, and the several lusts thereof are more and more weakned, and mortified, and they more and more quickned, and strengthned in all saving graces, to the practice of all true holiness, without which no man shall see the Lord.
+
+## Chapter 14. Of saving Faith.
+
+**1.** THe grace of Faith, whereby the Elect are inabled to believe to the saving of their souls, is the work of the Spirit of Christ in their hearts, and is ordinarily wrought by the Ministery of the Word; by which also, and by the administration of the Seals, Prayer, and other means, it is increased and strengthened.
+
+## Chapter 15. Of Repentance unto life and salvation.
+
+**1.** SUch of the Elect as are converted at riper years, having sometime lived in the state of nature, and therein served divers lusts and pleasures, God in their effectual calling giveth them Repentance unto life.
+
+## Chapter 16. Of good Works.
+
+**1.** GOod works are only such as God hath commanded in his holy Word, and not such as without the warrant thereof are devised by men our of blind zeal, or upon any pretence of good intentions.
+
+## Chapter 17. Of the Perseverance of the Saints.
+
+**1.** THey whom God hath accepted in his beloved, effectually called and sanctified by his Spirit, can neither totally nor finally fall away from the state of grace, but shall certainly persevere therein to the end, and be eternally saved.
+
+## Chapter 18. Of the Assurance of Grace and Salvation.
+
+**1.** ALthough temporary believers, and other unregenerate men may vainly deceive themselves with false hopes, and carnal presumptions of being in the favour of God, and state of salvation, which hope of theirs shall perish; yet such as truly believe in the Lord Jesus, and love him in sincerity, endeavouring to walk in all good conscience before him, may in this life be certainly assured that they are in the state of Grace, and may rejoyce in the hope of the glory of God; which hope shall never make them ashamed.
+
+## Chapter 19. Of the Law of God.
+
+**1.** GOD gave to Adam a Law of universal obedience written in his heart, and a particular Precept of not eating the Fruit of the Tree of Knowledge of good and evil, as a Covenant of Works, by which he bound him and all his posterity to personal, entire, exact, and perpetual obedience; promised life upon the fulfilling, and threatned death upon the breach of it, and indued him with power and ability to keep it.
+
+## Chapter 20. Of the Gospel, and of the extent of the Grace thereof.
+
+**1.** THe Covenant of Works being broken by sin, and made unprofitable unto life, God was pleased to give unto the Elect the promise of Christ, the Seed of the Woman, as the means of calling them, and begetting in them Faith and Repentance: In this Promise, the Gospel, as to the substance of it, was revealed, and was therein effectual for the conversion and salvation of sinners.
+
+## Chapter 21. Of Christian Liberty, and Liberty of Conscience.
+
+**1.** THe Liberty which Christ hath purchased for Believers under the Gospel, consists in their freedom from the guilt of sin, the condemning wrath of God, the rigour and curse of the Law, and in their being delivered from this present evil world, bondage to Satan, and dominion of sin, from the evil of afflictions, the fear and sting of death, the victory of the grave, and everlasting damnation; as also in their free access to God, and their yielding obedience unto him, not out of slavish fear, but a child-like-love, and willing mind: All which were common also to Believers under the Law, for the substance of them; but under the New Testament the liberty of Christians is further inlarged in their freedom from the yoake of the Ceremonial Law, the whole Legal administration of the Covenant of Grace, to which the Jewish Church was subjected, and in greater boldness of access to the Throne of Grace, and in fuller communications of the free Spirit of God, then Believers under the Law did ordinarily partake of.
+
+## Chapter 22. Of Religious Worship, and the Sabhath-day.
+
+**1.** THe light of Nature sheweth that there is a God, who hath Lordship and Soveraignty over all, is just, good, and doth good unto all, and is therefore to be feared, loved, praised, called upon, trusted in, and served with all the heart, and all the soul, and with all the might: But the acceptable way of worshipping the true God is instituted by himself, and so limited by his own revealed will, that he may not be worshipped according to the imaginations and devices of men, or the suggestions of Satan, under any visible representations, or any other way prescribed in the holy Scripture.
+
+## Chapter 23. Of lawful Oaths and Vows.
+
+**1.** A Lawful Oath is a part of Religious Worship, wherein the person swearing in truth, righteousness, and judgment, solemnly calleth God to witness what he afferteth or promiseth, and to judge him according to the truth or falshood of what he sweareth.
+
+## Chapter 24. Of the civil Magistrate.
+
+**1.** GOD the supreme Lord and King of all the World, hath ordained civil Magistrates to be under him, over the people for his own glory and the publique good: And to this end hath armed them with the power of the Sword, for the defence and incouragement of them that do good; and for the punishment of evil-doers.
+
+## Chapter 25. Of Marriage.
+
+**1.** MArriage is to be between one man and one woman: neither is it lawful for any man to have more then one wife, nor for any woman to have more then one husband at the same time.
+
+## Chapter 26. Of the Church.
+
+**1.** THe Catholique or Universal Church, which is invisible, consists of the whole number of the Elect, that have been, are, or shall be gathered into one under Christ, the Head thereof; and is the Spouse, the body, the fulness of him that filleth all in all.
+
+## Chapter 27. Of the Communion of Saints.
+
+**1.** ALL Saints that are united to Jesus Christ their Head, by his Spirit and Faith, although they are not made thereby one person with him, have fellowship in Graces, Sufferings, Death, Resurrection and Glory: and being united to one another in love, they have communion in each others gifts and grace, and are obliged to the performance of such duties, publique and private, as do conduce to their mutuall good, both in the inward and outward Man.
+
+## Chapter 28. Of the Sacraments.
+
+**1.** SAcraments are holy Signs and Seals of the Covenant of Grace, immediately instituted by Christ, to represent him and his benefits, and to confirm our interest in him, and solemnly to engage us to the service of God in Christ, according to his Word.
+
+## Chapter 29. Of Baptism.
+
+**1.** BAptism is a Sacrament of the New Testament, ordained by Jesus Christ to be unto the party baptized a sign and seal of the Covenant of Graee, of his ingraffing into Christ, of regeneration, of remission of sins, and of his giving up unto God through Jesus Christ to walk in newnesse of life; which Ordinance is by Christs own appointment to be continued in his Church untill the end of the world.
+
+## Chapter 30. Of the Lords Supper.
+
+**1.** Our Lord Jesus in the night wherein he was betrayed, instituted the Sacrament of his Body and Blood, called the Lords Supper, to be observed in his Churches unto the end of the world, for the perpetual remembrance, and shewing forth of the Sacrifice of himself ▪ in his death, the sealing of all benefits thereof unto true believers, their spiritual nourishment, and growth in him, their further ingagement in and to all duties which they owe unto him, and to be a bond and pledge of their communion with him, and with each other.
+
+## Chapter 31. Of the state of Man after Death, and of the Resurrection of the Deaed.
+
+**1.** THe Bodies of men after death return to dust, and see corruption, but their Souls (which neither die nor sleep) having an immortal subsistence, immediately return to God who gave them. The Souls of the righteous being then made perfect in holinesse, are received into the highest Heavens, where they behold the face of God in light and glo y, waiting for the full redemption of their bodies: And the souls of the wicked are cast into Hell, where they remain in torment and utter darknesse, reserved to the Judgment of the Great Day: Besides these two places for souls separated from their bodies, the Scripture acknowledgeth none.
+
+## Chapter 32. Of the last Judgment.
+
+**1.** GOD hath appointed a day wherein he will judge the World in righteousnesse by Jesus Christ ▪ to whom all Power and Judgment is given of the Father; in which day not onely the Apostate Angels shall be judged, but likewise all persons that have lived upon earth, shall appear before the Tribunal of Christ, to give an account of their thoughts, words, and deeds, and to receive according to what they have done in the body, whether good or evil.
