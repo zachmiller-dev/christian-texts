@@ -539,6 +539,7 @@ retrieved: 2026-04-19
 | [Second London Confession](texts/1689-london-baptist-confession/) (1677/1689) | [md](texts/1689-london-baptist-confession/original.md) · [json](texts/1689-london-baptist-confession/original.json) |
 | [An Orthodox Catechism](texts/1680-an-orthodox-catechism/) (Collins, 1680) | [original md](texts/1680-an-orthodox-catechism/original-1680.md) · [original json](texts/1680-an-orthodox-catechism/original-1680.json) · [modern md](texts/1680-an-orthodox-catechism/modern-english.md) · [modern json](texts/1680-an-orthodox-catechism/modern-english.json) |
 | [Baptist Catechism](texts/1693-baptist-catechism/) (Keach / Collins, 1693) | [md](texts/1693-baptist-catechism/original.md) · [json](texts/1693-baptist-catechism/original.json) |
+| [Catechism for Boys and Girls](texts/catechism-for-boys-and-girls/) (Hulse / Chapel Library) | [md](texts/catechism-for-boys-and-girls/original.md) · [json](texts/catechism-for-boys-and-girls/original.json) |
 | [Abstract of Principles](texts/abstract-of-principles/) (1858) | [md](texts/abstract-of-principles/original.md) · [json](texts/abstract-of-principles/original.json) |
 | [Charleston Summary of Church Discipline](texts/1774-charleston-church-discipline/) (1774) | [md](texts/1774-charleston-church-discipline/original.md) · [json](texts/1774-charleston-church-discipline/original.json) |
 
@@ -550,7 +551,7 @@ Not in this repo. Reeves’s modern English is copyrighted. Print copies for chu
 
 ## License
 
-Historical texts here are in the public domain (or CC0 TCP for Savoy). Repository scaffolding is CC0 (see `LICENSE`).
+Historical texts here are in the public domain (or CC0 TCP for Savoy). The Catechism for Boys and Girls is the Chapel Library / Errol Hulse booklet (© 1998; reproduction allowed with their notice). Repository scaffolding is CC0 (see `LICENSE`).
 """,
         encoding="utf-8",
     )
