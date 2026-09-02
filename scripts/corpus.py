@@ -1,12 +1,24 @@
 #!/usr/bin/env python3
-"""Convert between Creeds.json-shaped JSON and markdown with YAML frontmatter."""
+"""Convert between Creeds.json-shaped documents and markdown with YAML frontmatter."""
 
 from __future__ import annotations
 
+import io
 import json
 import re
 from pathlib import Path
 from typing import Any
+
+from ruamel.yaml import YAML
+from ruamel.yaml.comments import CommentedMap, CommentedSeq
+from ruamel.yaml.scalarstring import LiteralScalarString
+
+_BLOCK_SCALAR_KEYS = frozenset({"Content", "Answer", "AnswerWithProofs"})
+
+_yaml = YAML()
+_yaml.default_flow_style = False
+_yaml.allow_unicode = True
+_yaml.width = 4096
 
 WIKI = re.compile(r"\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]")
 
@@ -290,11 +302,59 @@ def md_to_json(text: str, fmt: str | None = None) -> dict[str, Any]:
     return confession_md_to_json(front, body)
 
 
+def _to_plain(value: Any) -> Any:
+    if isinstance(value, (CommentedMap, dict)):
+        return {k: _to_plain(v) for k, v in value.items()}
+    if isinstance(value, (CommentedSeq, list)):
+        return [_to_plain(v) for v in value]
+    return value
+
+
+def _apply_block_scalars(value: Any, key: str | None = None) -> Any:
+    if isinstance(value, dict):
+        out = CommentedMap()
+        for k, v in value.items():
+            out[k] = _apply_block_scalars(v, k)
+        return out
+    if isinstance(value, list):
+        return CommentedSeq([_apply_block_scalars(v) for v in value])
+    if key in _BLOCK_SCALAR_KEYS and isinstance(value, str) and ("\n" in value or len(value) > 80):
+        return LiteralScalarString(value)
+    return value
+
+
+def dump_doc(doc: dict[str, Any]) -> str:
+    styled = _apply_block_scalars(_to_plain(doc))
+    buf = io.StringIO()
+    _yaml.dump(styled, buf)
+    return buf.getvalue()
+
+
+def load_doc(text: str) -> dict[str, Any]:
+    loaded = _yaml.load(text)
+    if not isinstance(loaded, dict):
+        raise ValueError("corpus document must be a mapping at top level")
+    return _to_plain(loaded)
+
+
+def normalize_doc(doc: dict[str, Any]) -> dict[str, Any]:
+    """Normalize for equivalence checks: plain dicts, None for empty strings/lists where expected."""
+
+    def norm(value: Any) -> Any:
+        if isinstance(value, dict):
+            return {k: norm(v) for k, v in value.items()}
+        if isinstance(value, list):
+            return [norm(v) for v in value]
+        if value == "":
+            return None
+        return value
+
+    return norm(_to_plain(doc))
+
+
 def write_pair(directory: Path, stem: str, markdown: str, doc: dict[str, Any] | None = None) -> None:
     directory.mkdir(parents=True, exist_ok=True)
     (directory / f"{stem}.md").write_text(markdown, encoding="utf-8")
     if doc is None:
         doc = md_to_json(markdown)
-    (directory / f"{stem}.json").write_text(
-        json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
-    )
+    (directory / f"{stem}.yaml").write_text(dump_doc(doc), encoding="utf-8")

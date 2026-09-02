@@ -253,19 +253,16 @@ def main() -> None:
         "format": "catechism",
     }
     md = dump_frontmatter(front) + "\n".join(body).rstrip() + "\n"
-    write_pair(OUT_DIR, "original", md)
     doc = md_to_json(md)
     doc["Metadata"]["SourceAttribution"] = (
         "© 1998 Chapel Library; reproduction permitted with copyright notice"
     )
-    (OUT_DIR / "original.json").write_text(
-        json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
-    )
+    write_pair(OUT_DIR, "original", md, doc)
     (OUT_DIR / "README.md").write_text(
         "# A Catechism for Boys and Girls (Errol Hulse)\n\n"
         "134 questions in six parts, Chapel Library booklet.\n"
         f"Source: [{PDF}]({PDF}).\n"
-        "`original.md` / `original.json`.\n"
+        "`original.md` / `original.yaml`.\n"
         "© 1998 Chapel Library. They grant reproduction if the copyright notice "
         "is kept and copies are not sold beyond duplication cost.\n",
         encoding="utf-8",

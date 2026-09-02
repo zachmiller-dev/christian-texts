@@ -8,4 +8,4 @@ Two editions of Hercules Collins, *An Orthodox Catechism: Being the Sum of Chris
 | [`modern-english.md`](modern-english.md) | Modern English from the Commonplace vault / 1689.com | 148 |
 
 Collins, pastor of the baptized church in Old Gravel Lane, recast the Heidelberg Catechism for Particular Baptists after the Second London Confession.
-JSON siblings: `original-1680.json` and `modern-english.json`.
+YAML siblings: `original-1680.yaml` and `modern-english.yaml`.

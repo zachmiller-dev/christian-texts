@@ -1,0 +1,2148 @@
+Metadata:
+  Title: The Baptist Catechism
+  AlternativeTitles: []
+  Year: '1693'
+  Authors:
+  - Benjamin Keach
+  - William Collins
+  Location:
+  OriginalLanguage: English
+  OriginStory: ''
+  SourceUrl: https://1689.com/catechism
+  SourceAttribution: Public Domain
+  CreedFormat: Catechism
+Data:
+- Number: 1
+  Question: Who is the first and chiefest being?
+  Answer: God is the first and chiefest being.
+  AnswerWithProofs: God is the first and chiefest being.
+  Proofs:
+  - Id: 1
+    References:
+    - Isaiah 44:6
+  - Id: 2
+    References:
+    - Isaiah 48:12
+  - Id: 3
+    References:
+    - Psalms 97:9
+- Number: 2
+  Question: Ought everyone to believe there is a God?
+  Answer: |-
+    Everyone ought to believe there is a God; and it is their great sin and folly who do not.
+  AnswerWithProofs: |-
+    Everyone ought to believe there is a God; and it is their great sin and folly who do not.
+  Proofs:
+  - Id: 1
+    References:
+    - Hebrews 11:6
+  - Id: 2
+    References:
+    - Psalms 14:1
+- Number: 3
+  Question: How may we know there is a God?
+  Answer: |-
+    The light of nature in man and the works of God plainly declare there is a God; but His Word and Spirit only do it fully and effectually for the salvation of sinners.
+  AnswerWithProofs: |-
+    The light of nature in man and the works of God plainly declare there is a God; but His Word and Spirit only do it fully and effectually for the salvation of sinners.
+  Proofs:
+  - Id: 1
+    References:
+    - Romans 1:19–20
+  - Id: 2
+    References:
+    - Psalms 19:1–3
+  - Id: 3
+    References:
+    - Acts 17:24
+  - Id: 4
+    References:
+    - 1 Corinthians 2:10
+  - Id: 5
+    References:
+    - 2 Timothy 3:15–16
+- Number: 4
+  Question: What is the Word of God?
+  Answer: |-
+    The holy Scriptures of the Old and New Testament are the Word of God, and the only certain rule of faith and obedience.
+  AnswerWithProofs: |-
+    The holy Scriptures of the Old and New Testament are the Word of God, and the only certain rule of faith and obedience.
+  Proofs:
+  - Id: 1
+    References:
+    - 2 Timothy 3:16
+  - Id: 2
+    References:
+    - Ephesians 2:20
+- Number: 5
+  Question: May all men make use of the holy Scriptures?
+  Answer: |-
+    All men are not only permitted, but commanded and exhorted to read, hear, and understand the holy Scriptures.
+  AnswerWithProofs: |-
+    All men are not only permitted, but commanded and exhorted to read, hear, and understand the holy Scriptures.
+  Proofs:
+  - Id: 1
+    References:
+    - John 5:38
+  - Id: 2
+    References:
+    - John 17:17–18
+  - Id: 3
+    References:
+    - Revelation 1:3
+  - Id: 4
+    References:
+    - Acts 8:30
+- Number: 6
+  Question: What things are chiefly contained in the holy Scriptures?
+  Answer: |-
+    The holy Scriptures chiefly contain what man ought to believe concerning God, and what duty God requireth of man.
+  AnswerWithProofs: |-
+    The holy Scriptures chiefly contain what man ought to believe concerning God, and what duty God requireth of man.
+  Proofs:
+  - Id: 1
+    References:
+    - 2 Timothy 1:13
+  - Id: 2
+    References:
+    - 2 Timothy 3:15–16
+- Number: 7
+  Question: What is God?
+  Answer: |-
+    God is a Spirit, infinite, eternal, and unchangeable in His being, wisdom, power, holiness, justice, goodness, and truth.
+  AnswerWithProofs: |-
+    God is a Spirit, infinite, eternal, and unchangeable in His being, wisdom, power, holiness, justice, goodness, and truth.
+  Proofs:
+  - Id: 1
+    References:
+    - John 4:24
+  - Id: 2
+    References:
+    - Job 11:7–9
+  - Id: 3
+    References:
+    - Psalms 110:2
+  - Id: 4
+    References:
+    - James 1:17
+  - Id: 5
+    References:
+    - Exodus 3:14
+  - Id: 6
+    References:
+    - Psalms 147:5
+  - Id: 7
+    References:
+    - Revelation 4:8
+  - Id: 8
+    References:
+    - Revelation 15:4
+  - Id: 9
+    References:
+    - Exodus 34:6
+- Number: 8
+  Question: Are there more gods than one?
+  Answer: There is but one only, the living and true God.
+  AnswerWithProofs: There is but one only, the living and true God.
+  Proofs:
+  - Id: 1
+    References:
+    - Deuteronomy 6:4
+  - Id: 2
+    References:
+    - Jeremiah 10:10
+- Number: 9
+  Question: How many persons are there in the Godhead?
+  Answer: |-
+    There are three persons in the Godhead, the Father, the Son, and the Holy Spirit; and these three are one God, the same in essence, equal in power and glory.
+  AnswerWithProofs: |-
+    There are three persons in the Godhead, the Father, the Son, and the Holy Spirit; and these three are one God, the same in essence, equal in power and glory.
+  Proofs:
+  - Id: 1
+    References:
+    - 1 John 5:7
+  - Id: 2
+    References:
+    - Matthew 28:19
+- Number: 10
+  Question: What are the decrees of God?
+  Answer: |-
+    The decrees of God are His eternal purpose according to the counsel of His will, whereby, for His own glory, He hath foreordained whatsoever comes to pass.
+  AnswerWithProofs: |-
+    The decrees of God are His eternal purpose according to the counsel of His will, whereby, for His own glory, He hath foreordained whatsoever comes to pass.
+  Proofs:
+  - Id: 1
+    References:
+    - Ephesians 1:4, 11
+  - Id: 2
+    References:
+    - Romans 9:22–23
+  - Id: 3
+    References:
+    - Isaiah 46:10
+  - Id: 4
+    References:
+    - Lamentations 3:37
+- Number: 11
+  Question: How doth God execute His decrees?
+  Answer: God executeth his decrees in the works of creation and providence.
+  AnswerWithProofs: God executeth his decrees in the works of creation and providence.
+  Proofs: []
+- Number: 12
+  Question: What is the work of creation?
+  Answer: |-
+    The work of creation is God's making all things of nothing, by the word of His power, in the space of six days, and all very good.
+  AnswerWithProofs: |-
+    The work of creation is God's making all things of nothing, by the word of His power, in the space of six days, and all very good.
+  Proofs:
+  - Id: 1
+    References:
+    - Genesis 1:1–31
+  - Id: 2
+    References:
+    - Hebrews 11:3
+- Number: 13
+  Question: How did God create man?
+  Answer: |-
+    God created man, male and female, after His own image, in knowledge, righteousness, and holiness, with dominion over the creature.
+  AnswerWithProofs: |-
+    God created man, male and female, after His own image, in knowledge, righteousness, and holiness, with dominion over the creature.
+  Proofs:
+  - Id: 1
+    References:
+    - Genesis 1:26–28
+  - Id: 2
+    References:
+    - Colossians 3:10
+  - Id: 3
+    References:
+    - Ephesians 4:24
+- Number: 14
+  Question: What are God's works of providence?
+  Answer: |-
+    God's works of providence are His most holy, wise, and powerful preserving and governing all His creatures, and all their actions.
+  AnswerWithProofs: |-
+    God's works of providence are His most holy, wise, and powerful preserving and governing all His creatures, and all their actions.
+  Proofs:
+  - Id: 1
+    References:
+    - Psalms 145:17
+  - Id: 2
+    References:
+    - Isaiah 28:29
+  - Id: 3
+    References:
+    - Psalms 104:24
+  - Id: 4
+    References:
+    - Hebrews 1:3
+  - Id: 5
+    References:
+    - Psalms 103:19
+  - Id: 6
+    References:
+    - Matthew 10:29–31
+- Number: 15
+  Question: What special act of providence did God exercise towards man in the estate wherein he was created?
+  Answer: |-
+    When God had created man, He entered into a covenant of life with him upon condition of perfect obedience; forbidding him to eat of the tree of the knowledge of good and evil, upon pain of death.
+  AnswerWithProofs: |-
+    When God had created man, He entered into a covenant of life with him upon condition of perfect obedience; forbidding him to eat of the tree of the knowledge of good and evil, upon pain of death.
+  Proofs:
+  - Id: 1
+    References:
+    - Galatians 3:12
+  - Id: 2
+    References:
+    - Genesis 2:17
+- Number: 16
+  Question: Did our first parents continue in the estate wherein they were created?
+  Answer: |-
+    Our first parents, being left to the freedom of their own will, fell from the estate wherein they were created by sinning against God.
+  AnswerWithProofs: |-
+    Our first parents, being left to the freedom of their own will, fell from the estate wherein they were created by sinning against God.
+  Proofs:
+  - Id: 1
+    References:
+    - Genesis 3:6–8, 13
+  - Id: 2
+    References:
+    - Ecclesiastes 7:29
+- Number: 17
+  Question: What is sin?
+  Answer: Sin is any want of conformity unto, or transgression of, the law of God.
+  AnswerWithProofs: Sin is any want of conformity unto, or transgression of, the law of God.
+  Proofs:
+  - Id: 1
+    References:
+    - 1 John 3:4
+- Number: 18
+  Question: What was the sin whereby our first parents fell from the estate wherein they were created?
+  Answer: |-
+    The sin whereby our first parents fell from the estate wherein they were created, was their eating the forbidden fruit.
+  AnswerWithProofs: |-
+    The sin whereby our first parents fell from the estate wherein they were created, was their eating the forbidden fruit.
+  Proofs:
+  - Id: 1
+    References:
+    - Genesis 3:6, 12, 16–17
+- Number: 19
+  Question: Did all mankind fall in Adam's first transgression?
+  Answer: |-
+    The covenant being made with Adam, not only for himself but for his posterity, all mankind descending from him by ordinary generation sinned in him, and fell with him in his first transgression.
+  AnswerWithProofs: |-
+    The covenant being made with Adam, not only for himself but for his posterity, all mankind descending from him by ordinary generation sinned in him, and fell with him in his first transgression.
+  Proofs:
+  - Id: 1
+    References:
+    - Genesis 2:16–17
+  - Id: 2
+    References:
+    - Romans 5:12
+  - Id: 3
+    References:
+    - 1 Corinthians 15:21–22
+- Number: 20
+  Question: Into what estate did the Fall bring mankind?
+  Answer: The Fall brought mankind into an estate of sin and misery.
+  AnswerWithProofs: The Fall brought mankind into an estate of sin and misery.
+  Proofs:
+  - Id: 1
+    References:
+    - Romans 5:12
+- Number: 21
+  Question: Wherein consists the sinfulness of that estate whereinto man fell?
+  Answer: |-
+    The sinfulness of that estate whereinto man fell, consists in the guilt of Adam's first sin, the want of original righteousness, and the corruption of his whole nature, which is commonly called original sin; together with all actual transgressions which proceed from it.
+  AnswerWithProofs: |-
+    The sinfulness of that estate whereinto man fell, consists in the guilt of Adam's first sin, the want of original righteousness, and the corruption of his whole nature, which is commonly called original sin; together with all actual transgressions which proceed from it.
+  Proofs:
+  - Id: 1
+    References:
+    - Romans 5:12
+  - Id: 2
+    References:
+    - Ephesians 2:1–3
+  - Id: 3
+    References:
+    - James 1:14–15
+  - Id: 4
+    References:
+    - Matthew 15:19
+- Number: 22
+  Question: What is the misery of that estate whereinto man fell?
+  Answer: |-
+    All mankind by their fall lost communion with God, are under His wrath and curse, and so made liable to all miseries in this life, to death itself, and to the pains of hell for ever.
+  AnswerWithProofs: |-
+    All mankind by their fall lost communion with God, are under His wrath and curse, and so made liable to all miseries in this life, to death itself, and to the pains of hell for ever.
+  Proofs:
+  - Id: 1
+    References:
+    - Genesis 3:8, 10, 24
+  - Id: 2
+    References:
+    - Ephesians 2:2–3
+  - Id: 3
+    References:
+    - Galatians 3:10
+  - Id: 4
+    References:
+    - Lamentations 3:39
+  - Id: 5
+    References:
+    - Romans 6:23
+  - Id: 6
+    References:
+    - Matthew 25:41, 46
+- Number: 23
+  Question: Did God leave all mankind to perish in the estate of sin and misery?
+  Answer: |-
+    God having out of His mere good pleasure, from all eternity, elected some to everlasting life, did enter into a Covenant of Grace, to deliver them out of the estate of sin and misery, and to bring them into an estate of salvation by a Redeemer.
+  AnswerWithProofs: |-
+    God having out of His mere good pleasure, from all eternity, elected some to everlasting life, did enter into a Covenant of Grace, to deliver them out of the estate of sin and misery, and to bring them into an estate of salvation by a Redeemer.
+  Proofs:
+  - Id: 1
+    References:
+    - Ephesians 1:4–5
+  - Id: 2
+    References:
+    - Romans 3:20–22
+  - Id: 3
+    References:
+    - Galatians 3:21–22
+- Number: 24
+  Question: Who is the Redeemer of God's elect?
+  Answer: |-
+    The only Redeemer of God's elect is the Lord Jesus Christ; Who, being the eternal Son of God, became man, and so was and continueth to be God and man in two distinct natures, and one person for ever.
+  AnswerWithProofs: |-
+    The only Redeemer of God's elect is the Lord Jesus Christ; Who, being the eternal Son of God, became man, and so was and continueth to be God and man in two distinct natures, and one person for ever.
+  Proofs:
+  - Id: 1
+    References:
+    - 1 Timothy 2:5–6
+  - Id: 2
+    References:
+    - John 1:14
+  - Id: 3
+    References:
+    - Galatians 4:4
+  - Id: 4
+    References:
+    - Romans 9:5
+  - Id: 5
+    References:
+    - Luke 1:35
+  - Id: 6
+    References:
+    - Colossians 2:9
+  - Id: 7
+    References:
+    - Hebrews 7:24–25
+- Number: 25
+  Question: How did Christ, being the Son of God become man?
+  Answer: |-
+    Christ the Son of God became man by taking to Himself a true body, and a reasonable soul; being conceived by the power of the Holy Spirit in the womb of the Virgin Mary, and born of her, yet without sin.
+  AnswerWithProofs: |-
+    Christ the Son of God became man by taking to Himself a true body, and a reasonable soul; being conceived by the power of the Holy Spirit in the womb of the Virgin Mary, and born of her, yet without sin.
+  Proofs:
+  - Id: 1
+    References:
+    - Hebrews 2:14, 17
+  - Id: 2
+    References:
+    - Hebrews 10:5
+  - Id: 3
+    References:
+    - Matthew 26:38
+  - Id: 4
+    References:
+    - Luke 1:27, 31, 34–35, 42
+  - Id: 5
+    References:
+    - Galatians 4:4
+  - Id: 6
+    References:
+    - Hebrews 4:15
+  - Id: 7
+    References:
+    - Hebrews 7:26
+- Number: 26
+  Question: What offices doth Christ execute as our Redeemer?
+  Answer: |-
+    Christ as our Redeemer executeth the offices of a prophet, of a priest, and of king, both in His estate of humiliation and exaltation.
+  AnswerWithProofs: |-
+    Christ as our Redeemer executeth the offices of a prophet, of a priest, and of king, both in His estate of humiliation and exaltation.
+  Proofs:
+  - Id: 1
+    References:
+    - Acts 3:22
+  - Id: 2
+    References:
+    - Hebrews 12:25
+  - Id: 3
+    References:
+    - 2 Corinthians 13:3
+  - Id: 4
+    References:
+    - Hebrews 5:5–7
+  - Id: 5
+    References:
+    - Hebrews 7:25
+  - Id: 6
+    References:
+    - Psalms 2:6
+  - Id: 7
+    References:
+    - Isaiah 9:6–7
+  - Id: 8
+    References:
+    - Matthew 21:5
+  - Id: 9
+    References:
+    - Psalms 2:8–11
+- Number: 27
+  Question: How doth Christ execute the office of a prophet?
+  Answer: |-
+    Christ executeth the office of prophet in revealing to us, by His Word and Spirit, the will of God for our salvation.
+  AnswerWithProofs: |-
+    Christ executeth the office of prophet in revealing to us, by His Word and Spirit, the will of God for our salvation.
+  Proofs:
+  - Id: 1
+    References:
+    - John 1:18
+  - Id: 2
+    References:
+    - 1 Peter 1:10–12
+  - Id: 3
+    References:
+    - John 15:15
+  - Id: 4
+    References:
+    - John 20:31
+- Number: 28
+  Question: How doth Christ execute the office of a priest?
+  Answer: |-
+    Christ executeth the office of priest in His once offering up Himself a sacrifice to satisfy divine justice and reconcile us to God, and in making continual intercession for us.
+  AnswerWithProofs: |-
+    Christ executeth the office of priest in His once offering up Himself a sacrifice to satisfy divine justice and reconcile us to God, and in making continual intercession for us.
+  Proofs:
+  - Id: 1
+    References:
+    - Hebrews 9:14, 28
+  - Id: 2
+    References:
+    - Hebrews 2:17
+  - Id: 3
+    References:
+    - Hebrews 7:24–25
+- Number: 29
+  Question: How doth Christ execute the office of king?
+  Answer: |-
+    Christ executeth the office of a king, in subduing us to Himself, in ruling, and defending us, and in restraining and conquering all His and our enemies.
+  AnswerWithProofs: |-
+    Christ executeth the office of a king, in subduing us to Himself, in ruling, and defending us, and in restraining and conquering all His and our enemies.
+  Proofs:
+  - Id: 1
+    References:
+    - Acts 15:14–16
+  - Id: 2
+    References:
+    - Isaiah 33:22
+  - Id: 3
+    References:
+    - Isaiah 32:1–2
+  - Id: 4
+    References:
+    - 1 Corinthians 15:25
+  - Id: 5
+    References:
+    - Psalms 110:1–7
+- Number: 30
+  Question: Wherein did Christ's humiliation consist?
+  Answer: |-
+    Christ's humiliation consisted in His being born, and that in a low condition, made under the law, undergoing the miseries of this life, the wrath of God, and the cursed death of the cross; in being buried, and continuing under the power of death for a time.
+  AnswerWithProofs: |-
+    Christ's humiliation consisted in His being born, and that in a low condition, made under the law, undergoing the miseries of this life, the wrath of God, and the cursed death of the cross; in being buried, and continuing under the power of death for a time.
+  Proofs:
+  - Id: 1
+    References:
+    - Luke 2:7
+  - Id: 2
+    References:
+    - Galatians 4:4
+  - Id: 3
+    References:
+    - Hebrews 12:2–3
+  - Id: 4
+    References:
+    - Isaiah 53:2–3
+  - Id: 5
+    References:
+    - Luke 22:44
+  - Id: 6
+    References:
+    - Matthew 27:46
+  - Id: 7
+    References:
+    - Philippians 2:8
+  - Id: 8
+    References:
+    - 1 Corinthians 15:3–4
+  - Id: 9
+    References:
+    - Acts 2:24–27, 31
+  - Id: 10
+    References:
+    - Matthew 12:40
+- Number: 31
+  Question: Wherein consisteth Christ's exaltation?
+  Answer: |-
+    Christ's exaltation consisteth in His rising again from the dead on the third day, in ascending up into heaven, in sitting at the right hand of God the Father, and in coming to judge the world at the last day.
+  AnswerWithProofs: |-
+    Christ's exaltation consisteth in His rising again from the dead on the third day, in ascending up into heaven, in sitting at the right hand of God the Father, and in coming to judge the world at the last day.
+  Proofs:
+  - Id: 1
+    References:
+    - 1 Corinthians 15:4
+  - Id: 2
+    References:
+    - Mark 16:19
+  - Id: 3
+    References:
+    - Ephesians 1:20
+  - Id: 4
+    References:
+    - Acts 1:11
+  - Id: 5
+    References:
+    - Acts 17:31
+- Number: 32
+  Question: How are we made partakers of the redemption purchased by Christ?
+  Answer: |-
+    We are made partakers of the redemption purchased by Christ, by the effectual application of it to us by His Holy Spirit.
+  AnswerWithProofs: |-
+    We are made partakers of the redemption purchased by Christ, by the effectual application of it to us by His Holy Spirit.
+  Proofs:
+  - Id: 1
+    References:
+    - John 1:11–12
+  - Id: 2
+    References:
+    - Titus 3:5–6
+- Number: 33
+  Question: How doth the spirit apply to us the redemption purchased by Christ?
+  Answer: |-
+    The Spirit applieth to us the redemption purchased by Christ, by working faith in us, and thereby uniting us to Christ, in our effectual calling.
+  AnswerWithProofs: |-
+    The Spirit applieth to us the redemption purchased by Christ, by working faith in us, and thereby uniting us to Christ, in our effectual calling.
+  Proofs:
+  - Id: 1
+    References:
+    - Ephesians 1:13–14
+  - Id: 2
+    References:
+    - John 6:37, 39
+  - Id: 3
+    References:
+    - Ephesians 2:8
+  - Id: 4
+    References:
+    - Ephesians 3:17
+  - Id: 5
+    References:
+    - 1 Corinthians 1:9
+- Number: 34
+  Question: What is effectual calling?
+  Answer: |-
+    Effectual calling is the work of God's Spirit, whereby convincing us of our sin and misery, enlightening our minds in the knowledge of Christ, and renewing our wills, He doth persuade and enable us to embrace Jesus Christ freely offered to us in the gospel.
+  AnswerWithProofs: |-
+    Effectual calling is the work of God's Spirit, whereby convincing us of our sin and misery, enlightening our minds in the knowledge of Christ, and renewing our wills, He doth persuade and enable us to embrace Jesus Christ freely offered to us in the gospel.
+  Proofs:
+  - Id: 1
+    References:
+    - 2 Timothy 1:9
+  - Id: 2
+    References:
+    - 2 Thessalonians 2:13–14
+  - Id: 3
+    References:
+    - Acts 2:37
+  - Id: 4
+    References:
+    - Acts 26:18
+  - Id: 5
+    References:
+    - Ezekiel 36:26–27
+  - Id: 6
+    References:
+    - John 6:44–45
+  - Id: 7
+    References:
+    - Philippians 2:13
+- Number: 35
+  Question: What benefits do they that are effectually called partake of in this life?
+  Answer: |-
+    They that are effectually called do in this life partake of justification, adoption, sanctification, and the several benefits which in this life do either accompany or flow from them.
+  AnswerWithProofs: |-
+    They that are effectually called do in this life partake of justification, adoption, sanctification, and the several benefits which in this life do either accompany or flow from them.
+  Proofs:
+  - Id: 1
+    References:
+    - Romans 8:30
+  - Id: 2
+    References:
+    - Ephesians 1:5
+  - Id: 3
+    References:
+    - 1 Corinthians 1:30
+- Number: 36
+  Question: What is justification?
+  Answer: |-
+    Justification is an act of God's free grace, wherein He pardoneth all our sins, and accepteth us as righteous in His sight, only for the righteousness of Christ imputed to us, and received by faith alone.
+  AnswerWithProofs: |-
+    Justification is an act of God's free grace, wherein He pardoneth all our sins, and accepteth us as righteous in His sight, only for the righteousness of Christ imputed to us, and received by faith alone.
+  Proofs:
+  - Id: 1
+    References:
+    - Romans 3:24–25
+  - Id: 2
+    References:
+    - Romans 4:6–8
+  - Id: 3
+    References:
+    - 2 Corinthians 5:19, 21
+  - Id: 4
+    References:
+    - Romans 5:17–19
+  - Id: 5
+    References:
+    - Galatians 2:16
+  - Id: 6
+    References:
+    - Philippians 3:9
+- Number: 37
+  Question: What is adoption?
+  Answer: |-
+    Adoption is an act of God's free grace, whereby we are received into the number and have a right to all the privileges of the sons of God.
+  AnswerWithProofs: |-
+    Adoption is an act of God's free grace, whereby we are received into the number and have a right to all the privileges of the sons of God.
+  Proofs:
+  - Id: 1
+    References:
+    - 1 John 3:1
+  - Id: 2
+    References:
+    - John 1:12
+  - Id: 3
+    References:
+    - Romans 8:14–17
+- Number: 38
+  Question: What is sanctification?
+  Answer: |-
+    Sanctification is the work of God's free grace, whereby we are renewed in the whole man after the image of God, and are enabled more and more to die unto sin, and live unto righteousness.
+  AnswerWithProofs: |-
+    Sanctification is the work of God's free grace, whereby we are renewed in the whole man after the image of God, and are enabled more and more to die unto sin, and live unto righteousness.
+  Proofs:
+  - Id: 1
+    References:
+    - 2 Thessalonians 2:13
+  - Id: 2
+    References:
+    - Ephesians 4:23–24
+  - Id: 3
+    References:
+    - Romans 6:4, 6
+  - Id: 4
+    References:
+    - Romans 8:1
+- Number: 39
+  Question: What are the benefits which in this life do accompany or flow from justification, adoption, and sanctification?
+  Answer: |-
+    The benefits which in this life do accompany or flow from justification, adoption, and sanctification, are assurance of God's love, peace of conscience, joy in the Holy Spirit, increase of grace, and perseverance therein to the end.
+  AnswerWithProofs: |-
+    The benefits which in this life do accompany or flow from justification, adoption, and sanctification, are assurance of God's love, peace of conscience, joy in the Holy Spirit, increase of grace, and perseverance therein to the end.
+  Proofs:
+  - Id: 1
+    References:
+    - Romans 5:1–2, 5
+  - Id: 2
+    References:
+    - Romans 5:5, 17
+  - Id: 3
+    References:
+    - Proverbs 4:18
+  - Id: 4
+    References:
+    - 1 John 5:13
+  - Id: 5
+    References:
+    - 1 Peter 1:5
+- Number: 40
+  Question: What benefits do believers receive from Christ at their death?
+  Answer: |-
+    The souls of believers are at their death made perfect in holiness, and do immediately pass into glory; and their bodies being still united to Christ, do rest in their graves till the resurrection.
+  AnswerWithProofs: |-
+    The souls of believers are at their death made perfect in holiness, and do immediately pass into glory; and their bodies being still united to Christ, do rest in their graves till the resurrection.
+  Proofs:
+  - Id: 1
+    References:
+    - Hebrews 12:23
+  - Id: 2
+    References:
+    - 2 Corinthians 5:1, 6, 8
+  - Id: 3
+    References:
+    - Philippians 1:23
+  - Id: 4
+    References:
+    - Luke 23:43
+  - Id: 5
+    References:
+    - 1 Thessalonians 4:14
+  - Id: 6
+    References:
+    - Isaiah 57:2
+  - Id: 7
+    References:
+    - Job 19:26–27
+- Number: 41
+  Question: What benefits do believers receive from Christ at the resurrection?
+  Answer: |-
+    At the resurrection believers, being raised up in glory, shall be openly acknowledged, and acquitted in the day of judgment, and made perfectly blessed, both in soul and body, in the full enjoyment of God to all eternity.
+  AnswerWithProofs: |-
+    At the resurrection believers, being raised up in glory, shall be openly acknowledged, and acquitted in the day of judgment, and made perfectly blessed, both in soul and body, in the full enjoyment of God to all eternity.
+  Proofs:
+  - Id: 1
+    References:
+    - 1 Corinthians 15:43
+  - Id: 2
+    References:
+    - Matthew 25:23
+  - Id: 3
+    References:
+    - Matthew 10:32
+  - Id: 4
+    References:
+    - 1 John 3:2
+  - Id: 5
+    References:
+    - 1 Corinthians 13:12
+  - Id: 6
+    References:
+    - 1 Thessalonians 4:17–18
+- Number: 42
+  Question: But what shall be done to the wicked at their death?
+  Answer: |-
+    The souls of the wicked shall, at their death, be cast into the torments of hell, and their bodies lie in their graves, till the resurrection and judgment of the great day.
+  AnswerWithProofs: |-
+    The souls of the wicked shall, at their death, be cast into the torments of hell, and their bodies lie in their graves, till the resurrection and judgment of the great day.
+  Proofs:
+  - Id: 1
+    References:
+    - Luke 16:23–24
+  - Id: 2
+    References:
+    - Acts 2:24
+  - Id: 3
+    References:
+    - Bible — Jude 5
+  - Id: 4
+    References:
+    - Bible — Jude 7
+  - Id: 5
+    References:
+    - 1 Peter 3:19
+  - Id: 6
+    References:
+    - Psalms 49:14
+- Number: 43
+  Question: What shall be done to the wicked, at the day of judgment?
+  Answer: |-
+    At the day of judgment the bodies of the wicked, being raised out of their graves, shall be sentenced, together with their souls, to unspeakable torments with the devil and his angels for ever.
+  AnswerWithProofs: |-
+    At the day of judgment the bodies of the wicked, being raised out of their graves, shall be sentenced, together with their souls, to unspeakable torments with the devil and his angels for ever.
+  Proofs:
+  - Id: 1
+    References:
+    - John 5:28–29
+  - Id: 2
+    References:
+    - Matthew 25:41, 46
+  - Id: 3
+    References:
+    - 2 Thessalonians 1:8–9
+- Number: 44
+  Question: What is the duty which God requireth of man?
+  Answer: The duty which God requireth of man is, obedience to His revealed will.
+  AnswerWithProofs: The duty which God requireth of man is, obedience to His revealed will.
+  Proofs:
+  - Id: 1
+    References:
+    - Micah 6:8
+  - Id: 2
+    References:
+    - 1 Samuel 15:22
+- Number: 45
+  Question: What did God at first reveal to man for the rule of his obedience?
+  Answer: |-
+    The rule which God at first revealed to man for his obedience, was the moral law.
+  AnswerWithProofs: |-
+    The rule which God at first revealed to man for his obedience, was the moral law.
+  Proofs:
+  - Id: 1
+    References:
+    - Romans 2:14–15
+  - Id: 2
+    References:
+    - 10:5
+- Number: 46
+  Question: Where is the moral law summarily comprehended?
+  Answer: The moral law is summarily comprehended in the Ten Commandments.
+  AnswerWithProofs: The moral law is summarily comprehended in the Ten Commandments.
+  Proofs:
+  - Id: 1
+    References:
+    - Deuteronomy 10:4
+  - Id: 2
+    References:
+    - Matthew 19:17
+- Number: 47
+  Question: What is the sum of the Ten Commandments?
+  Answer: |-
+    The sum of the Ten Commandments is, to love the Lord our God, with all our heart, with all our soul, with all our strength, and with all our mind; and our neighbour as ourselves.
+  AnswerWithProofs: |-
+    The sum of the Ten Commandments is, to love the Lord our God, with all our heart, with all our soul, with all our strength, and with all our mind; and our neighbour as ourselves.
+  Proofs:
+  - Id: 1
+    References:
+    - Matthew 22:37–40
+- Number: 48
+  Question: What is the preface to the Ten Commandments?
+  Answer: |-
+    The preface to the Ten Commandments is in these words: "I am the Lord thy God which have brought thee out of the land of Egypt, out of the house of bondage."
+  AnswerWithProofs: |-
+    The preface to the Ten Commandments is in these words: "I am the Lord thy God which have brought thee out of the land of Egypt, out of the house of bondage."
+  Proofs:
+  - Id: 1
+    References:
+    - Exodus 20:2
+- Number: 49
+  Question: What doth the preface to the Ten Commandments teach us?
+  Answer: |-
+    The preface to the Ten Commandments teacheth us that because God is the Lord, and our God and redeemer, therefore we are bound to keep all His commandments.
+  AnswerWithProofs: |-
+    The preface to the Ten Commandments teacheth us that because God is the Lord, and our God and redeemer, therefore we are bound to keep all His commandments.
+  Proofs:
+  - Id: 1
+    References:
+    - Luke 1:74–75
+  - Id: 2
+    References:
+    - 1 Peter 1:15–19
+- Number: 50
+  Question: Which is the first commandment?
+  Answer: The first commandment is, "Thou shalt have no other gods before me."
+  AnswerWithProofs: The first commandment is, "Thou shalt have no other gods before me."
+  Proofs:
+  - Id: 1
+    References:
+    - Exodus 20:3
+- Number: 51
+  Question: What is required in the first commandment?
+  Answer: |-
+    The first commandment requireth us to know and acknowledge God to be the only true God and our God, and to worship and glorify Him accordingly.
+  AnswerWithProofs: |-
+    The first commandment requireth us to know and acknowledge God to be the only true God and our God, and to worship and glorify Him accordingly.
+  Proofs:
+  - Id: 1
+    References:
+    - 1 Chronicles 28:9
+  - Id: 2
+    References:
+    - Deuteronomy 26:17
+  - Id: 3
+    References:
+    - Matthew 4:10
+  - Id: 4
+    References:
+    - Psalms 29:2
+- Number: 52
+  Question: What is forbidden in the first commandment?
+  Answer: |-
+    The first commandment forbiddeth the denying, or not worshipping and glorifying the true God, as God and our God, and the giving of that worship and glory to any other, which is due unto Him alone.
+  AnswerWithProofs: |-
+    The first commandment forbiddeth the denying, or not worshipping and glorifying the true God, as God and our God, and the giving of that worship and glory to any other, which is due unto Him alone.
+  Proofs:
+  - Id: 1
+    References:
+    - Psalms 14:1
+  - Id: 2
+    References:
+    - Romans 1:21
+  - Id: 3
+    References:
+    - Psalms 81:10–11
+  - Id: 4
+    References:
+    - Romans 1:25–26
+- Number: 53
+  Question: What are we especially taught by these words before me, in the first commandment?
+  Answer: |-
+    These words before me, in the first commandment teach us, that God, who seeth all things, taketh notice of and is much displeased with the sin of having any other God.
+  AnswerWithProofs: |-
+    These words before me, in the first commandment teach us, that God, who seeth all things, taketh notice of and is much displeased with the sin of having any other God.
+  Proofs:
+  - Id: 1
+    References:
+    - Exodus 8:5
+- Number: 54
+  Question: Which is the second commandment?
+  Answer: |-
+    The second commandment is, "Thou shalt not make unto thee any graven image, or any likeness of anything that is in heaven above, or that is in the earth beneath, or that is in the water under the earth; thou shalt not bow down thyself to them, nor serve them; for I the Lord thy God am a jealous God, visiting the iniquity of the fathers upon the children unto the third and fourth generation of them that hate me; and shewing mercy unto thousands of them that love me, and keep my commandments."
+  AnswerWithProofs: |-
+    The second commandment is, "Thou shalt not make unto thee any graven image, or any likeness of anything that is in heaven above, or that is in the earth beneath, or that is in the water under the earth; thou shalt not bow down thyself to them, nor serve them; for I the Lord thy God am a jealous God, visiting the iniquity of the fathers upon the children unto the third and fourth generation of them that hate me; and shewing mercy unto thousands of them that love me, and keep my commandments."
+  Proofs:
+  - Id: 1
+    References:
+    - Exodus 20:4–6
+- Number: 55
+  Question: What is required in the second commandment?
+  Answer: |-
+    The second commandment requireth the receiving, observing, and keeping pure and entire all such religious worship and ordinances, as God hath appointed in His word.
+  AnswerWithProofs: |-
+    The second commandment requireth the receiving, observing, and keeping pure and entire all such religious worship and ordinances, as God hath appointed in His word.
+  Proofs:
+  - Id: 1
+    References:
+    - Deuteronomy 32:46
+  - Id: 2
+    References:
+    - Matthew 23:20
+  - Id: 3
+    References:
+    - Acts 2:42
+- Number: 56
+  Question: What is forbidden in the second commandment?
+  Answer: |-
+    The second commandment forbiddeth the worshipping of God by images or any other way not appointed in His word.
+  AnswerWithProofs: |-
+    The second commandment forbiddeth the worshipping of God by images or any other way not appointed in His word.
+  Proofs:
+  - Id: 1
+    References:
+    - Deuteronomy 4:15–19
+  - Id: 2
+    References:
+    - Exodus 32:5, 8
+  - Id: 3
+    References:
+    - Deuteronomy 12:31–32
+- Number: 57
+  Question: What are the reasons annexed to the second commandment?
+  Answer: |-
+    The reasons annexed to the second commandment are, God's sovereignty over us, His propriety in us, and the zeal He hath to His own worship.
+  AnswerWithProofs: |-
+    The reasons annexed to the second commandment are, God's sovereignty over us, His propriety in us, and the zeal He hath to His own worship.
+  Proofs:
+  - Id: 1
+    References:
+    - Psalms 45:2–3, 6
+  - Id: 2
+    References:
+    - Psalms 45:11
+  - Id: 3
+    References:
+    - Exodus 34:13–14
+- Number: 58
+  Question: Which is the third commandment?
+  Answer: |-
+    The third commandment is, "Thou shalt not take the name of the Lord thy God in vain; for the Lord will not hold him guiltless that taketh His name in vain."
+  AnswerWithProofs: |-
+    The third commandment is, "Thou shalt not take the name of the Lord thy God in vain; for the Lord will not hold him guiltless that taketh His name in vain."
+  Proofs:
+  - Id: 1
+    References:
+    - Exodus 20:7
+- Number: 59
+  Question: What is required in the third commandment?
+  Answer: |-
+    The third commandment requireth the holy and reverent use of God's names, titles, attributes, ordinances, word, and works.
+  AnswerWithProofs: |-
+    The third commandment requireth the holy and reverent use of God's names, titles, attributes, ordinances, word, and works.
+  Proofs:
+  - Id: 1
+    References:
+    - Matthew 6:9
+  - Id: 2
+    References:
+    - Deuteronomy 28:58
+  - Id: 3
+    References:
+    - Psalms 68:4
+  - Id: 4
+    References:
+    - Revelation 15:3–4
+  - Id: 5
+    References:
+    - Malachi 1:11, 14
+  - Id: 6
+    References:
+    - Psalms 136:1–2
+  - Id: 7
+    References:
+    - Job 36:24
+- Number: 60
+  Question: What is forbidden in the third commandment?
+  Answer: |-
+    The third commandment forbiddeth all profaning and abusing of any thing whereby God makes Himself known.
+  AnswerWithProofs: |-
+    The third commandment forbiddeth all profaning and abusing of any thing whereby God makes Himself known.
+  Proofs:
+  - Id: 1
+    References:
+    - Malachi 1:6–7, 12
+  - Id: 2
+    References:
+    - Malachi 2:2
+  - Id: 3
+    References:
+    - Malachi 3:14
+- Number: 61
+  Question: What is the reason annexed to the third commandment?
+  Answer: |-
+    The reason annexed to the third commandment is, that however the breakers of this commandment may escape punishment from men, yet the Lord our God will not suffer them to escape His righteous judgment.
+  AnswerWithProofs: |-
+    The reason annexed to the third commandment is, that however the breakers of this commandment may escape punishment from men, yet the Lord our God will not suffer them to escape His righteous judgment.
+  Proofs: []
+- Number: 62
+  Question: What is the fourth commandment?
+  Answer: |-
+    The fourth commandment is, "Remember the Sabbath day to keep it holy; six days shalt thou labour and do all thy work; but the seventh day is the Sabbath of the Lord thy God, in it thou shalt not do any work, thou, nor thy son, nor thy daughter, nor thy man-servant, nor thy maid-servant, nor thy cattle, nor the stranger that is within thy gates; for in six days the Lord made heaven and earth, the sea, and all that in them is, and rested the seventh day; wherefore the Lord blessed the Sabbath day and hallowed it."
+  AnswerWithProofs: |-
+    The fourth commandment is, "Remember the Sabbath day to keep it holy; six days shalt thou labour and do all thy work; but the seventh day is the Sabbath of the Lord thy God, in it thou shalt not do any work, thou, nor thy son, nor thy daughter, nor thy man-servant, nor thy maid-servant, nor thy cattle, nor the stranger that is within thy gates; for in six days the Lord made heaven and earth, the sea, and all that in them is, and rested the seventh day; wherefore the Lord blessed the Sabbath day and hallowed it."
+  Proofs:
+  - Id: 1
+    References:
+    - Exodus 20:8–11
+- Number: 63
+  Question: What is required in the fourth commandment?
+  Answer: |-
+    The fourth commandment requireth the keeping holy to God such set times as He hath appointed in His word, expressly, one whole day in seven to be a holy sabbath to Himself.
+  AnswerWithProofs: |-
+    The fourth commandment requireth the keeping holy to God such set times as He hath appointed in His word, expressly, one whole day in seven to be a holy sabbath to Himself.
+  Proofs:
+  - Id: 1
+    References:
+    - Exodus 20:8–11
+  - Id: 2
+    References:
+    - Deuteronomy 5:12–14
+- Number: 64
+  Question: Which day of the seven hath God appointed to be the weekly Sabbath?
+  Answer: |-
+    Before the resurrection of Christ, God appointed the seventh day of the week to be the weekly Sabbath; and the first day of the week ever since, to continue to the end of the world, which is the Christian Sabbath.
+  AnswerWithProofs: |-
+    Before the resurrection of Christ, God appointed the seventh day of the week to be the weekly Sabbath; and the first day of the week ever since, to continue to the end of the world, which is the Christian Sabbath.
+  Proofs:
+  - Id: 1
+    References:
+    - Exodus 20:8–11
+  - Id: 2
+    References:
+    - Deuteronomy 5:12–14
+  - Id: 3
+    References:
+    - Psalms 118:24
+  - Id: 4
+    References:
+    - Matthew 28:1
+  - Id: 5
+    References:
+    - Mark 2:27–28
+  - Id: 6
+    References:
+    - John 20:19–20, 26
+  - Id: 7
+    References:
+    - Revelation 1:10
+  - Id: 8
+    References:
+    - Mark 16:2
+  - Id: 9
+    References:
+    - Luke 24:1, 30–36
+  - Id: 10
+    References:
+    - John 20:1
+  - Id: 11
+    References:
+    - Acts 1:3
+  - Id: 12
+    References:
+    - Acts 2:1–2
+  - Id: 13
+    References:
+    - Acts 20:7
+  - Id: 14
+    References:
+    - 1 Corinthians 16:1–2
+- Number: 65
+  Question: How is the Sabbath to be sanctified?
+  Answer: |-
+    The Sabbath is to be sanctified by a holy resting all that day, even from such worldly employments and recreations as are lawful on other days; and spending the whole time in the public and private exercises of God's worship, except so much as is to be taken up in the works of necessity and mercy.
+  AnswerWithProofs: |-
+    The Sabbath is to be sanctified by a holy resting all that day, even from such worldly employments and recreations as are lawful on other days; and spending the whole time in the public and private exercises of God's worship, except so much as is to be taken up in the works of necessity and mercy.
+  Proofs:
+  - Id: 1
+    References:
+    - Exodus 20:8, 10
+  - Id: 2
+    References:
+    - Exodus 16:25–28
+  - Id: 3
+    References:
+    - Nehemiah 13:15–22
+  - Id: 4
+    References:
+    - Luke 4:16
+  - Id: 5
+    References:
+    - Acts 20:7
+  - Id: 6
+    References:
+    - Psalms 92:1–15
+  - Id: 7
+    References:
+    - Isaiah 66:23
+  - Id: 8
+    References:
+    - Matthew 12:1–13
+- Number: 66
+  Question: What is forbidden in the fourth commandment?
+  Answer: |-
+    The fourth commandment forbiddeth the omission or careless performance of the duties required, and the profaning the day by idleness, or doing that which is in itself sinful, or by unnecessary thoughts, words, or works, about worldly employments or recreations.
+  AnswerWithProofs: |-
+    The fourth commandment forbiddeth the omission or careless performance of the duties required, and the profaning the day by idleness, or doing that which is in itself sinful, or by unnecessary thoughts, words, or works, about worldly employments or recreations.
+  Proofs:
+  - Id: 1
+    References:
+    - Ezekiel 22:26
+  - Id: 2
+    References:
+    - Amos 8:5
+  - Id: 3
+    References:
+    - Malachi 1:13
+  - Id: 4
+    References:
+    - Acts 20:7, 9
+  - Id: 5
+    References:
+    - Ezekiel 23:38
+  - Id: 6
+    References:
+    - Jeremiah 17:24–27
+  - Id: 7
+    References:
+    - Isaiah 58:13
+- Number: 67
+  Question: What are the reasons annexed to the fourth commandment?
+  Answer: |-
+    The reasons annexed to the fourth commandment, are God's allowing us six days of the week for our own lawful employments, His challenging a special propriety in a seventh, His own example, and His blessing the Sabbath day.
+  AnswerWithProofs: |-
+    The reasons annexed to the fourth commandment, are God's allowing us six days of the week for our own lawful employments, His challenging a special propriety in a seventh, His own example, and His blessing the Sabbath day.
+  Proofs:
+  - Id: 1
+    References:
+    - Exodus 20:9
+  - Id: 2
+    References:
+    - Exodus 20:11
+- Number: 68
+  Question: Which is the fifth commandment?
+  Answer: |-
+    The fifth commandment is, "Honor thy father and thy mother; that thy days may be long in the land which the Lord thy God giveth thee."
+  AnswerWithProofs: |-
+    The fifth commandment is, "Honor thy father and thy mother; that thy days may be long in the land which the Lord thy God giveth thee."
+  Proofs:
+  - Id: 1
+    References:
+    - Exodus 20:12
+- Number: 69
+  Question: What is required in the fifth commandment?
+  Answer: |-
+    The fifth commandment requireth the preserving the honour and performing the duties belonging to every one in their several places and relations, as superiors, inferiors, or equals.
+  AnswerWithProofs: |-
+    The fifth commandment requireth the preserving the honour and performing the duties belonging to every one in their several places and relations, as superiors, inferiors, or equals.
+  Proofs:
+  - Id: 1
+    References:
+    - Ephesians 5:21
+  - Id: 2
+    References:
+    - 1 Peter 2:17
+  - Id: 3
+    References:
+    - Romans 12:10
+- Number: 70
+  Question: What is forbidden in the fifth commandment?
+  Answer: |-
+    The fifth commandment forbiddeth the neglect of, or doing any thing against the honour and duty which belongeth to every one in their several places and relations.
+  AnswerWithProofs: |-
+    The fifth commandment forbiddeth the neglect of, or doing any thing against the honour and duty which belongeth to every one in their several places and relations.
+  Proofs:
+  - Id: 1
+    References:
+    - Matthew 15:4–6
+  - Id: 2
+    References:
+    - Ezekiel 34:24
+  - Id: 3
+    References:
+    - Romans 13:8
+- Number: 71
+  Question: What is the reason annexed to the fifth commandment?
+  Answer: |-
+    The reason annexed to the fifth commandment is a promise of long life and prosperity (as far as it shall serve for God's glory, and their own good) to all such as keep this commandment.
+  AnswerWithProofs: |-
+    The reason annexed to the fifth commandment is a promise of long life and prosperity (as far as it shall serve for God's glory, and their own good) to all such as keep this commandment.
+  Proofs:
+  - Id: 1
+    References:
+    - Deuteronomy 5:16
+  - Id: 2
+    References:
+    - Ephesians 6:2–3
+- Number: 72
+  Question: What is the sixth commandment?
+  Answer: The sixth commandment is, "Thou shalt not kill."
+  AnswerWithProofs: The sixth commandment is, "Thou shalt not kill."
+  Proofs:
+  - Id: 1
+    References:
+    - Exodus 20:13
+- Number: 73
+  Question: What is required in the sixth commandment?
+  Answer: |-
+    The sixth commandment requireth all lawful endeavours to preserve our own life and the life of others.
+  AnswerWithProofs: |-
+    The sixth commandment requireth all lawful endeavours to preserve our own life and the life of others.
+  Proofs:
+  - Id: 1
+    References:
+    - Ephesians 5:28–29
+  - Id: 2
+    References:
+    - 1 Kings 18:4
+- Number: 74
+  Question: What is forbidden in the sixth commandment?
+  Answer: |-
+    The sixth commandment absolutely forbiddeth the taking away of our own life, or the life of our neighbour unjustly, or whatsoever tendeth thereunto.
+  AnswerWithProofs: |-
+    The sixth commandment absolutely forbiddeth the taking away of our own life, or the life of our neighbour unjustly, or whatsoever tendeth thereunto.
+  Proofs:
+  - Id: 1
+    References:
+    - Acts 26:28
+  - Id: 2
+    References:
+    - Genesis 9:9
+- Number: 75
+  Question: Which is the seventh commandment?
+  Answer: The seventh commandment is, "Thou shalt not commit adultery."
+  AnswerWithProofs: The seventh commandment is, "Thou shalt not commit adultery."
+  Proofs:
+  - Id: 1
+    References:
+    - Exodus 20:14
+- Number: 76
+  Question: What is required in the seventh commandment?
+  Answer: |-
+    The seventh commandment requireth the preservation of our own and our neighbor's chastity, in heart, speech, and behavior.
+  AnswerWithProofs: |-
+    The seventh commandment requireth the preservation of our own and our neighbor's chastity, in heart, speech, and behavior.
+  Proofs:
+  - Id: 1
+    References:
+    - 1 Corinthians 7:2–3, 5, 34
+  - Id: 2
+    References:
+    - 3:6
+  - Id: 3
+    References:
+    - Colossians 4:6
+  - Id: 4
+    References:
+    - 1 Peter 3:2
+- Number: 77
+  Question: What is forbidden in the seventh commandment?
+  Answer: The seventh commandment forbiddeth all unchaste thoughts, words, and actions.
+  AnswerWithProofs: The seventh commandment forbiddeth all unchaste thoughts, words, and actions.
+  Proofs:
+  - Id: 1
+    References:
+    - Matthew 15:19
+  - Id: 2
+    References:
+    - Matthew 5:28
+  - Id: 3
+    References:
+    - Ephesians 5:3–4
+- Number: 78
+  Question: Which is the eighth commandment?
+  Answer: The eighth commandment is, "Thou shalt not steal."
+  AnswerWithProofs: The eighth commandment is, "Thou shalt not steal."
+  Proofs:
+  - Id: 1
+    References:
+    - Exodus 20:15
+- Number: 79
+  Question: What is required in the eighth commandment?
+  Answer: |-
+    The eighth commandment requireth the lawful procuring and furthering the wealth and outward estate of ourselves and others.
+  AnswerWithProofs: |-
+    The eighth commandment requireth the lawful procuring and furthering the wealth and outward estate of ourselves and others.
+  Proofs:
+  - Id: 1
+    References:
+    - Genesis 30:30
+  - Id: 2
+    References:
+    - 1 Timothy 5:8
+  - Id: 3
+    References:
+    - Leviticus 25:35
+  - Id: 4
+    References:
+    - Deuteronomy 22:1–5
+  - Id: 5
+    References:
+    - Exodus 23:4–5
+  - Id: 6
+    References:
+    - Genesis 47:14, 20
+- Number: 80
+  Question: What is forbidden in the eighth commandment?
+  Answer: |-
+    The eighth commandment forbiddeth whatsoever doth or may unjustly hinder our own or our neighbour's wealth or outward estate.
+  AnswerWithProofs: |-
+    The eighth commandment forbiddeth whatsoever doth or may unjustly hinder our own or our neighbour's wealth or outward estate.
+  Proofs:
+  - Id: 1
+    References:
+    - 1 Timothy 5:8
+  - Id: 2
+    References:
+    - Proverbs 28:19
+  - Id: 3
+    References:
+    - Proverbs 21:17
+  - Id: 4
+    References:
+    - Proverbs 23:20–21
+  - Id: 5
+    References:
+    - Ephesians 4:28
+- Number: 81
+  Question: Which is the ninth commandment?
+  Answer: |-
+    The ninth commandment is, "Thou shalt not bear false witness against thy neighbour."
+  AnswerWithProofs: |-
+    The ninth commandment is, "Thou shalt not bear false witness against thy neighbour."
+  Proofs:
+  - Id: 1
+    References:
+    - Exodus 20:16
+- Number: 82
+  Question: What is required in the ninth commandment?
+  Answer: |-
+    The ninth commandment requireth the maintaining and promoting of truth between man and man, and of our own and our neighbour's good name, especially in witness bearing.
+  AnswerWithProofs: |-
+    The ninth commandment requireth the maintaining and promoting of truth between man and man, and of our own and our neighbour's good name, especially in witness bearing.
+  Proofs:
+  - Id: 1
+    References:
+    - Zechariah 8:16
+  - Id: 2
+    References:
+    - John 5:12
+  - Id: 3
+    References:
+    - Proverbs 14:5, 25
+- Number: 83
+  Question: What is forbidden in the ninth commandment?
+  Answer: |-
+    The ninth commandment forbiddeth whatsoever is prejudicial to the truth, or injurious to our own or our neighbour's good name.
+  AnswerWithProofs: |-
+    The ninth commandment forbiddeth whatsoever is prejudicial to the truth, or injurious to our own or our neighbour's good name.
+  Proofs:
+  - Id: 1
+    References:
+    - 1 Samuel 17:28
+  - Id: 2
+    References:
+    - Leviticus 19:16
+  - Id: 3
+    References:
+    - Psalms 15:2–3
+- Number: 84
+  Question: Which is the tenth commandment?
+  Answer: |-
+    The tenth commandment is, "Thou shalt not covet thy neighbour's house, thou shalt not covet thy neighbour's wife, nor his man-servant, nor his maid-servant, nor his ox, nor his ass, nor anything that is thy neighbour's."
+  AnswerWithProofs: |-
+    The tenth commandment is, "Thou shalt not covet thy neighbour's house, thou shalt not covet thy neighbour's wife, nor his man-servant, nor his maid-servant, nor his ox, nor his ass, nor anything that is thy neighbour's."
+  Proofs:
+  - Id: 1
+    References:
+    - Exodus 20:17
+- Number: 85
+  Question: What is required in the tenth commandment?
+  Answer: |-
+    The tenth commandment requireth full contentment with our own condition, with a right and charitable frame of spirit toward our neighbour, and all that is his.
+  AnswerWithProofs: |-
+    The tenth commandment requireth full contentment with our own condition, with a right and charitable frame of spirit toward our neighbour, and all that is his.
+  Proofs:
+  - Id: 1
+    References:
+    - Hebrews 13:5
+  - Id: 2
+    References:
+    - 1 Timothy 6:6
+  - Id: 3
+    References:
+    - Job 31:29
+  - Id: 4
+    References:
+    - Romans 7:15
+  - Id: 5
+    References:
+    - 1 Timothy 1:5
+  - Id: 6
+    References:
+    - 1 Corinthians 8:4, 7
+- Number: 86
+  Question: What is forbidden in the tenth commandment?
+  Answer: |-
+    The tenth commandment forbiddeth all discontentment with our own estate, envying or grieving at the good of our neighbour, and all inordinate motions and affections to anything that is his.
+  AnswerWithProofs: |-
+    The tenth commandment forbiddeth all discontentment with our own estate, envying or grieving at the good of our neighbour, and all inordinate motions and affections to anything that is his.
+  Proofs:
+  - Id: 1
+    References:
+    - 1 Kings 21:4
+  - Id: 2
+    References:
+    - Esther 5:13
+  - Id: 3
+    References:
+    - 1 Corinthians 10:10
+  - Id: 4
+    References:
+    - Galatians 5:26
+  - Id: 5
+    References:
+    - James 3:14, 16
+  - Id: 6
+    References:
+    - Romans 7:7–8
+  - Id: 7
+    References:
+    - Romans 13:9
+  - Id: 8
+    References:
+    - Deuteronomy 5:21
+- Number: 87
+  Question: Is any man able perfectly to keep the commandments of God?
+  Answer: |-
+    No mere man since the fall is able in this life perfectly to keep the commandments of God, but doth daily break them in thought, word, or deed.
+  AnswerWithProofs: |-
+    No mere man since the fall is able in this life perfectly to keep the commandments of God, but doth daily break them in thought, word, or deed.
+  Proofs:
+  - Id: 1
+    References:
+    - Ecclesiastes 7:20
+  - Id: 2
+    References:
+    - 1 John 1:8, 10
+  - Id: 3
+    References:
+    - Galatians 5:17
+  - Id: 4
+    References:
+    - Genesis 6:5
+  - Id: 5
+    References:
+    - Genesis 8:21
+  - Id: 6
+    References:
+    - Romans 3:9–21
+  - Id: 7
+    References:
+    - James 3:2–13
+- Number: 88
+  Question: Are all transgressions of the law equally heinous?
+  Answer: |-
+    Some sins in themselves, and by reason of several aggravations, are more heinous in the sight of God than others.
+  AnswerWithProofs: |-
+    Some sins in themselves, and by reason of several aggravations, are more heinous in the sight of God than others.
+  Proofs:
+  - Id: 1
+    References:
+    - Ezekiel 8:6, 13, 15
+  - Id: 2
+    References:
+    - 1 John 5:16
+  - Id: 3
+    References:
+    - Psalms 78:17, 32, 56
+- Number: 89
+  Question: What doth every sin deserve?
+  Answer: |-
+    Every sin deserveth God's wrath and curse, both in this life and that which is to come.
+  AnswerWithProofs: |-
+    Every sin deserveth God's wrath and curse, both in this life and that which is to come.
+  Proofs:
+  - Id: 1
+    References:
+    - Ephesians 5:6
+  - Id: 2
+    References:
+    - Galatians 3:10
+  - Id: 3
+    References:
+    - Lamentations 3:39
+  - Id: 4
+    References:
+    - Matthew 25:41
+  - Id: 5
+    References:
+    - Romans 6:23
+- Number: 90
+  Question: What doth God require of us that we may escape His wrath and curse, due to us for sin?
+  Answer: |-
+    To escape the wrath and curse of God due to us for sin, God requireth of us faith in Jesus Christ, repentance unto life, with the diligent use of all the outward means whereby Christ communicateth to us the benefits of redemption.
+  AnswerWithProofs: |-
+    To escape the wrath and curse of God due to us for sin, God requireth of us faith in Jesus Christ, repentance unto life, with the diligent use of all the outward means whereby Christ communicateth to us the benefits of redemption.
+  Proofs:
+  - Id: 1
+    References:
+    - Acts 20:21
+  - Id: 2
+    References:
+    - Proverbs 2:1–6
+  - Id: 3
+    References:
+    - Proverbs 8:33–36
+  - Id: 4
+    References:
+    - Isaiah 55:2–3
+- Number: 91
+  Question: What is faith in Jesus Christ?
+  Answer: |-
+    Faith in Jesus Christ is a saving grace, whereby we receive and rest upon Him alone for salvation, as He is offered to us in the gospel.
+  AnswerWithProofs: |-
+    Faith in Jesus Christ is a saving grace, whereby we receive and rest upon Him alone for salvation, as He is offered to us in the gospel.
+  Proofs:
+  - Id: 1
+    References:
+    - Hebrews 10:39
+  - Id: 2
+    References:
+    - John 1:12
+  - Id: 3
+    References:
+    - Isaiah 26:3–4
+  - Id: 4
+    References:
+    - Philippians 3:9
+  - Id: 5
+    References:
+    - Galatians 2:16
+- Number: 92
+  Question: What is repentance unto life?
+  Answer: |-
+    Repentance unto life is a saving grace, whereby a sinner, out of a true sense of his sin, and apprehension of the mercy of God in Christ, doth, with grief and hatred of his sin, turn from it unto God, with full purpose of and endeavour after new obedience.
+  AnswerWithProofs: |-
+    Repentance unto life is a saving grace, whereby a sinner, out of a true sense of his sin, and apprehension of the mercy of God in Christ, doth, with grief and hatred of his sin, turn from it unto God, with full purpose of and endeavour after new obedience.
+  Proofs:
+  - Id: 1
+    References:
+    - Acts 11:28
+  - Id: 2
+    References:
+    - Acts 2:37–38
+  - Id: 3
+    References:
+    - Joel 2:12
+  - Id: 4
+    References:
+    - Jeremiah 3:22
+  - Id: 5
+    References:
+    - Jeremiah 31:18–19
+  - Id: 6
+    References:
+    - Ezekiel 36:31
+  - Id: 7
+    References:
+    - 2 Corinthians 7:11
+  - Id: 8
+    References:
+    - Isaiah 1:16–17
+- Number: 93
+  Question: What are the outward means whereby Christ communicateth to us the benefits of redemption?
+  Answer: |-
+    The outward and ordinary means whereby Christ communicateth to us the benefits of redemption are His ordinances, especially the word, baptism, the Lord's supper, and prayer; all which means are made effectual to the elect for salvation.
+  AnswerWithProofs: |-
+    The outward and ordinary means whereby Christ communicateth to us the benefits of redemption are His ordinances, especially the word, baptism, the Lord's supper, and prayer; all which means are made effectual to the elect for salvation.
+  Proofs:
+  - Id: 1
+    References:
+    - Matthew 28:19–20
+  - Id: 2
+    References:
+    - Acts 2:42, 46–47
+- Number: 94
+  Question: How is the Word made effectual to salvation?
+  Answer: |-
+    The Spirit of God maketh the reading, but especially the preaching of the Word, an effectual means of convincing and converting sinners, and of building them up in holiness and comfort through faith unto salvation.
+  AnswerWithProofs: |-
+    The Spirit of God maketh the reading, but especially the preaching of the Word, an effectual means of convincing and converting sinners, and of building them up in holiness and comfort through faith unto salvation.
+  Proofs:
+  - Id: 1
+    References:
+    - Nehemiah 8:8
+  - Id: 2
+    References:
+    - Acts 26:18
+  - Id: 3
+    References:
+    - Psalms 19:8
+  - Id: 4
+    References:
+    - Acts 20:32
+  - Id: 5
+    References:
+    - Romans 1:15–16
+  - Id: 6
+    References:
+    - Romans 10:13–17
+  - Id: 7
+    References:
+    - Romans 15:4
+  - Id: 8
+    References:
+    - 1 Corinthians 14:24–25
+  - Id: 9
+    References:
+    - 2 Timothy 3:15–17
+- Number: 95
+  Question: How is the Word to be read and heard, that it may become effectual to salvation?
+  Answer: |-
+    That the Word may become effectual to salvation, we must attend thereunto with diligence, preparation, and prayer; receive it with faith and love, lay it up in our hearts, and practice it in our lives.
+  AnswerWithProofs: |-
+    That the Word may become effectual to salvation, we must attend thereunto with diligence, preparation, and prayer; receive it with faith and love, lay it up in our hearts, and practice it in our lives.
+  Proofs:
+  - Id: 1
+    References:
+    - Proverbs 8:34
+  - Id: 2
+    References:
+    - 1 Peter 2:1–2
+  - Id: 3
+    References:
+    - Psalms 119:18
+  - Id: 4
+    References:
+    - Hebrews 4:2
+  - Id: 5
+    References:
+    - 2 Thessalonians 2:10
+  - Id: 6
+    References:
+    - Psalms 119:18
+  - Id: 7
+    References:
+    - Luke 8:15
+  - Id: 8
+    References:
+    - James 1:25
+- Number: 96
+  Question: How do baptism and the Lord's supper become effectual means of salvation?
+  Answer: |-
+    Baptism and the Lord's supper become effectual means of salvation, not for any virtue in them, or in him that doth administer them, but only by the blessing of Christ, and the working of the Spirit in those that by faith receive them.
+  AnswerWithProofs: |-
+    Baptism and the Lord's supper become effectual means of salvation, not for any virtue in them, or in him that doth administer them, but only by the blessing of Christ, and the working of the Spirit in those that by faith receive them.
+  Proofs:
+  - Id: 1
+    References:
+    - 1 Peter 3:21
+  - Id: 2
+    References:
+    - Matthew 3:11
+  - Id: 3
+    References:
+    - 1 Corinthians 3:6–7
+  - Id: 4
+    References:
+    - 1 Corinthians 12:3
+  - Id: 5
+    References:
+    - Matthew 28:19
+- Number: 97
+  Question: What is baptism?
+  Answer: |-
+    Baptism is an ordinance of the New Testament instituted by Jesus Christ, to be unto the party baptized a sign of their fellowship with Him, in His death, burial, and resurrection; of them being ingrafted into Him; of remission of sins; and of them giving up themself unto God through Jesus Christ, to live and walk in newness of life.
+  AnswerWithProofs: |-
+    Baptism is an ordinance of the New Testament instituted by Jesus Christ, to be unto the party baptized a sign of their fellowship with Him, in His death, burial, and resurrection; of them being ingrafted into Him; of remission of sins; and of them giving up themself unto God through Jesus Christ, to live and walk in newness of life.
+  Proofs:
+  - Id: 1
+    References:
+    - Romans 6:3–5
+  - Id: 2
+    References:
+    - Colossians 2:12
+  - Id: 3
+    References:
+    - Galatians 3:27
+  - Id: 4
+    References:
+    - Mark 1:4
+  - Id: 5
+    References:
+    - Acts 2:38
+  - Id: 6
+    References:
+    - Acts 22:16
+  - Id: 7
+    References:
+    - Romans 6:3–4
+- Number: 98
+  Question: To whom is baptism to be administered?
+  Answer: |-
+    Baptism is to be administered to all those who actually profess repentance towards God, faith in and obedience to our Lord Jesus Christ, and to none other.
+  AnswerWithProofs: |-
+    Baptism is to be administered to all those who actually profess repentance towards God, faith in and obedience to our Lord Jesus Christ, and to none other.
+  Proofs:
+  - Id: 1
+    References:
+    - Acts 2:38
+  - Id: 2
+    References:
+    - Matthew 3:6
+  - Id: 3
+    References:
+    - Acts 8:12, 36–38
+  - Id: 4
+    References:
+    - Acts 10:47–48
+- Number: 99
+  Question: Are the infants of such as are professing believers to be baptized?
+  Answer: |-
+    The infants of such as are professing believers are not to be baptized, because there is neither command or example in the holy Scriptures, or certain consequence from them to baptize such.
+  AnswerWithProofs: |-
+    The infants of such as are professing believers are not to be baptized, because there is neither command or example in the holy Scriptures, or certain consequence from them to baptize such.
+  Proofs:
+  - Id: 1
+    References:
+    - Exodus 23:13
+  - Id: 2
+    References:
+    - Proverbs 30:6
+  - Id: 3
+    References:
+    - Luke 3:7–8
+- Number: 100
+  Question: How is Baptism rightly administered?
+  Answer: |-
+    Baptism is rightly administered by immersion, or dipping the whole body of the party in water, into the name of the Father, and of the Son, and of the Holy Spirit, according to Christ's institution, and the practice of the apostles, and not by sprinkling or pouring of water, or dipping some part of the body, after the tradition of men.
+  AnswerWithProofs: |-
+    Baptism is rightly administered by immersion, or dipping the whole body of the party in water, into the name of the Father, and of the Son, and of the Holy Spirit, according to Christ's institution, and the practice of the apostles, and not by sprinkling or pouring of water, or dipping some part of the body, after the tradition of men.
+  Proofs:
+  - Id: 1
+    References:
+    - Matthew 3:16
+  - Id: 2
+    References:
+    - John 3:23
+  - Id: 3
+    References:
+    - John 4:1–2
+  - Id: 4
+    References:
+    - Matthew 28:19–20
+  - Id: 5
+    References:
+    - Acts 8:38
+  - Id: 6
+    References:
+    - Romans 6:4
+  - Id: 7
+    References:
+    - Colossians 2:12
+- Number: 101
+  Question: What is the duty of such who are rightly baptized?
+  Answer: |-
+    It is the duty of such who are rightly baptized to give up themselves to some particular and orderly church of Jesus Christ, that they may walk in all the commandments and ordinances of the Lord blameless.
+  AnswerWithProofs: |-
+    It is the duty of such who are rightly baptized to give up themselves to some particular and orderly church of Jesus Christ, that they may walk in all the commandments and ordinances of the Lord blameless.
+  Proofs:
+  - Id: 1
+    References:
+    - Acts 2:41–42
+  - Id: 2
+    References:
+    - Acts 5:13–14
+  - Id: 3
+    References:
+    - Acts 9:26
+  - Id: 4
+    References:
+    - 1 Peter 2:5
+  - Id: 5
+    References:
+    - Luke 1:6
+- Number: 102
+  Question: What is the Lord's supper?
+  Answer: |-
+    The Lord's supper is an ordinance of the New Testament, instituted by Jesus Christ; wherein by giving and receiving bread and wine, according to His appointment, His death is shown forth, and the worthy receivers are, not after a corporal and carnal manner, but by faith, made partakers of His body and blood, with all His benefits, to their spiritual nourishment and growth in grace.
+  AnswerWithProofs: |-
+    The Lord's supper is an ordinance of the New Testament, instituted by Jesus Christ; wherein by giving and receiving bread and wine, according to His appointment, His death is shown forth, and the worthy receivers are, not after a corporal and carnal manner, but by faith, made partakers of His body and blood, with all His benefits, to their spiritual nourishment and growth in grace.
+  Proofs:
+  - Id: 1
+    References:
+    - Matthew 26:26–28
+  - Id: 2
+    References:
+    - 1 Corinthians 11:23–26
+  - Id: 3
+    References:
+    - 1 Corinthians 10:16
+- Number: 103
+  Question: Who are the proper subjects of this ordinance?
+  Answer: |-
+    They who have been baptized upon a personal profession of their faith in Jesus Christ, and repentance from dead works.
+  AnswerWithProofs: |-
+    They who have been baptized upon a personal profession of their faith in Jesus Christ, and repentance from dead works.
+  Proofs:
+  - Id: 1
+    References:
+    - Acts 2:41–42
+- Number: 104
+  Question: What is required to the worthy receiving of the Lord's supper?
+  Answer: |-
+    It is required of them that would worthily partake of the Lord's supper, that they examine themselves of their knowledge to discern the Lord's body, of their faith to feed upon Him, of their repentance, love, and new obedience, lest coming unworthily they eat and drink judgment to themselves.
+  AnswerWithProofs: |-
+    It is required of them that would worthily partake of the Lord's supper, that they examine themselves of their knowledge to discern the Lord's body, of their faith to feed upon Him, of their repentance, love, and new obedience, lest coming unworthily they eat and drink judgment to themselves.
+  Proofs:
+  - Id: 1
+    References:
+    - 1 Corinthians 11:28–29
+  - Id: 2
+    References:
+    - 2 Corinthians 13:5
+  - Id: 3
+    References:
+    - 1 Corinthians 11:31
+  - Id: 4
+    References:
+    - 1 Corinthians 10:16–17
+  - Id: 5
+    References:
+    - 1 Corinthians 5:7–8
+  - Id: 6
+    References:
+    - 1 Corinthians 11:28–29
+- Number: 105
+  Question: What is prayer?
+  Answer: |-
+    Prayer is an offering up our desires to God, by the assistance of the Holy Spirit, for things agreeable to His will, in the name of Christ, believing, with confession of our sins, and thankful acknowledgments of His mercies.
+  AnswerWithProofs: |-
+    Prayer is an offering up our desires to God, by the assistance of the Holy Spirit, for things agreeable to His will, in the name of Christ, believing, with confession of our sins, and thankful acknowledgments of His mercies.
+  Proofs:
+  - Id: 1
+    References:
+    - Psalms 62:8
+  - Id: 2
+    References:
+    - Romans 8:26
+  - Id: 3
+    References:
+    - 1 John 5:14
+  - Id: 4
+    References:
+    - Romans 8:27
+  - Id: 5
+    References:
+    - John 16:23
+  - Id: 6
+    References:
+    - Matthew 21:22
+  - Id: 7
+    References:
+    - James 1:6
+  - Id: 8
+    References:
+    - Psalms 32:5–6
+  - Id: 9
+    References:
+    - Daniel 9:4
+  - Id: 10
+    References:
+    - Philippians 4:6
+- Number: 106
+  Question: What rule hath God given for our direction in prayer?
+  Answer: |-
+    The whole Word of God is of use to direct us in prayer; but the special rule of direction is that prayer which Christ taught His disciples, commonly called the Lord's prayer.
+  AnswerWithProofs: |-
+    The whole Word of God is of use to direct us in prayer; but the special rule of direction is that prayer which Christ taught His disciples, commonly called the Lord's prayer.
+  Proofs:
+  - Id: 1
+    References:
+    - 1 John 5:14
+  - Id: 2
+    References:
+    - Matthew 6:9–13
+  - Id: 3
+    References:
+    - Luke 11:2–4
+- Number: 107
+  Question: What doth the preface of the Lord's prayer teach us?
+  Answer: |-
+    The preface of the Lord's prayer, which is, "Our Father which art in heaven," teacheth us to draw near to God with all holy reverence and confidence, as children to a father, able and ready to help us; and that we should pray with and for others.
+  AnswerWithProofs: |-
+    The preface of the Lord's prayer, which is, "Our Father which art in heaven," teacheth us to draw near to God with all holy reverence and confidence, as children to a father, able and ready to help us; and that we should pray with and for others.
+  Proofs:
+  - Id: 1
+    References:
+    - Matthew 6:9
+  - Id: 2
+    References:
+    - Romans 8:15
+  - Id: 3
+    References:
+    - Luke 11:13
+  - Id: 4
+    References:
+    - Isaiah 24:8
+  - Id: 5
+    References:
+    - Acts 12:5
+  - Id: 6
+    References:
+    - 1 Timothy 2:1–2
+- Number: 108
+  Question: What do we pray for in the first petition?
+  Answer: |-
+    In the first petition, which is, "Hallowed be thy name," we pray that God would enable us and others to glorify Him in all that whereby He maketh Himself known, and that He would dispose all things to His own glory.
+  AnswerWithProofs: |-
+    In the first petition, which is, "Hallowed be thy name," we pray that God would enable us and others to glorify Him in all that whereby He maketh Himself known, and that He would dispose all things to His own glory.
+  Proofs:
+  - Id: 1
+    References:
+    - Matthew 6:9
+  - Id: 2
+    References:
+    - Psalms 67:2–3
+  - Id: 3
+    References:
+    - Psalms 83:1–18
+  - Id: 4
+    References:
+    - Romans 11:36
+- Number: 109
+  Question: What do we pray for in the second petition?
+  Answer: |-
+    In the second petition, which is, "Thy kingdom come," we pray that Satan's kingdom may be destroyed, and that the kingdom of grace may be advanced, ourselves and others brought into it and kept in it, and that the kingdom of glory may be hastened.
+  AnswerWithProofs: |-
+    In the second petition, which is, "Thy kingdom come," we pray that Satan's kingdom may be destroyed, and that the kingdom of grace may be advanced, ourselves and others brought into it and kept in it, and that the kingdom of glory may be hastened.
+  Proofs:
+  - Id: 1
+    References:
+    - Matthew 6:10
+  - Id: 2
+    References:
+    - Psalms 68:1, 18
+  - Id: 3
+    References:
+    - Revelation 12:10–11
+  - Id: 4
+    References:
+    - 2 Thessalonians 3:1
+  - Id: 5
+    References:
+    - Romans 10:1
+  - Id: 6
+    References:
+    - John 17:19–20
+  - Id: 7
+    References:
+    - Revelation 22:10
+- Number: 110
+  Question: What do we pray for in the third petition?
+  Answer: |-
+    In the third petition, which is, "Thy will be done on earth as it is in heaven," we pray that God by His grace would make us able and willing to know, obey, and submit to His will in all things, as the angels do in heaven.
+  AnswerWithProofs: |-
+    In the third petition, which is, "Thy will be done on earth as it is in heaven," we pray that God by His grace would make us able and willing to know, obey, and submit to His will in all things, as the angels do in heaven.
+  Proofs:
+  - Id: 1
+    References:
+    - Matthew 6:10
+  - Id: 2
+    References:
+    - Psalms 67:1–7
+  - Id: 3
+    References:
+    - Psalms 119:36
+  - Id: 4
+    References:
+    - 2 Samuel 15:25
+  - Id: 5
+    References:
+    - Job 1:21
+  - Id: 6
+    References:
+    - Psalms 103:20–21
+- Number: 111
+  Question: What do we pray for in the fourth petition?
+  Answer: |-
+    In the fourth petition, which is, "Give us this day our daily bread," we pray that of God's free gift we may receive a competent portion of the good things of this life, and enjoy His blessing with them.
+  AnswerWithProofs: |-
+    In the fourth petition, which is, "Give us this day our daily bread," we pray that of God's free gift we may receive a competent portion of the good things of this life, and enjoy His blessing with them.
+  Proofs:
+  - Id: 1
+    References:
+    - Matthew 6:11
+  - Id: 2
+    References:
+    - Proverbs 30:8
+  - Id: 3
+    References:
+    - Genesis 28:20
+  - Id: 4
+    References:
+    - 1 Timothy 4:4–5
+- Number: 112
+  Question: What do we pray for in the fifth petition?
+  Answer: |-
+    In the fifth petition, which is, "And forgive us our debts as we forgive our debtors," we pray that God, for Christ's sake, would freely pardon all our sins which we are rather encouraged to ask because of His grace we are enabled from the heart to forgive others.
+  AnswerWithProofs: |-
+    In the fifth petition, which is, "And forgive us our debts as we forgive our debtors," we pray that God, for Christ's sake, would freely pardon all our sins which we are rather encouraged to ask because of His grace we are enabled from the heart to forgive others.
+  Proofs:
+  - Id: 1
+    References:
+    - Matthew 6:12
+  - Id: 2
+    References:
+    - Psalms 51:1–2, 7, 9
+  - Id: 3
+    References:
+    - Daniel 9:17–19
+  - Id: 4
+    References:
+    - Luke 11:4
+  - Id: 5
+    References:
+    - Matthew 18:35
+- Number: 113
+  Question: What do we pray for in the sixth petition?
+  Answer: |-
+    In the sixth petition, which is, "And lead us not into temptation but deliver us from evil," we pray that God would either keep us from being tempted to sin, or support and deliver us when we are tempted.
+  AnswerWithProofs: |-
+    In the sixth petition, which is, "And lead us not into temptation but deliver us from evil," we pray that God would either keep us from being tempted to sin, or support and deliver us when we are tempted.
+  Proofs:
+  - Id: 1
+    References:
+    - Matthew 6:13
+  - Id: 2
+    References:
+    - Matthew 26:31
+  - Id: 3
+    References:
+    - 2 Corinthians 12:8
+- Number: 114
+  Question: What doth the conclusion of the Lord's Prayer teach?
+  Answer: |-
+    The conclusion of the Lord's prayer, which is, "For Thine is the kingdom, and the power, and the glory, forever. Amen," teacheth us to take our encouragement in prayer from God only, and in our prayers to praise Him, ascribing kingdom, power, and glory, to Him. And in testimony of our desire and assurance to be heard, we say, "Amen."
+
+    ---
+  AnswerWithProofs: |-
+    The conclusion of the Lord's prayer, which is, "For Thine is the kingdom, and the power, and the glory, forever. Amen," teacheth us to take our encouragement in prayer from God only, and in our prayers to praise Him, ascribing kingdom, power, and glory, to Him. And in testimony of our desire and assurance to be heard, we say, "Amen."
+
+    ---
+  Proofs:
+  - Id: 1
+    References:
+    - Matthew 6:13
+  - Id: 2
+    References:
+    - Daniel 9:4, 7–9, 16–19
+  - Id: 3
+    References:
+    - 1 Chronicles 29:10–13
+  - Id: 4
+    References:
+    - 1 Corinthians 4:16
+  - Id: 5
+    References:
+    - Revelation 22:20–21
