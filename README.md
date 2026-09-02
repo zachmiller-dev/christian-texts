@@ -5,6 +5,8 @@ Markdown and JSON sources for public-domain Christian texts. This repository is 
 - **Markdown** is for reading (agents and people).
 - **JSON** uses the Creeds.json shape (`Metadata` + `Data`) for structured lookup.
 
+> **Agents/bots:** looking for the JSON? Use the YAML frontmatter in the `.md` file instead — see [`AGENTS.md`](AGENTS.md).
+
 Each text file has YAML frontmatter:
 
 ```yaml
