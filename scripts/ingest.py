@@ -10,6 +10,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from corpus import (  # noqa: E402
+    dump_doc,
     dump_frontmatter,
     json_to_markdown,
     md_to_json,
@@ -73,18 +74,16 @@ def import_creeds_json() -> None:
         }
         md = json_to_markdown(doc, extra)
         d = TEXTS / slug
-        write_pair(d, "original", md, doc if False else None)
-        # rewrite json from md so Metadata matches frontmatter; keep Data from source
         converted = md_to_json(md)
         converted["Data"] = doc["Data"]
         converted["Metadata"]["CreedFormat"] = doc["Metadata"]["CreedFormat"]
         converted["Metadata"]["SourceUrl"] = extra["source"]
-        (d / "original.json").write_text(json.dumps(converted, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        write_pair(d, "original", md, converted)
         write_readme(
             d,
             title,
             [
-                f"Markdown: `original.md`. JSON: `original.json`.",
+                "Markdown: `original.md`. YAML: `original.yaml`.",
                 f"Imported from Creeds.json (`{fname}`), public domain.",
             ],
         )
@@ -152,7 +151,7 @@ def ingest_1689() -> None:
         d,
         "Second London Baptist Confession (1677/1689)",
         [
-            "Original wording from 1689.com: `original.md` / `original.json`.",
+            "Original wording from 1689.com: `original.md` / `original.yaml`.",
             "",
             "Stan Reeves’s modern English is copyrighted and is **not** in this repository.",
             "Read it on [Founders](https://founders.org/library-book/1689-confession/) or the author’s site ([reeveshome.org/modern1689](https://reeveshome.org/modern1689/1689_modern.pdf)).",
@@ -184,7 +183,7 @@ def ingest_keach() -> None:
         "The Baptist Catechism (Keach / Collins, 1693)",
         [
             "114 questions from the Commonplace vault / 1689.com.",
-            "`original.md` / `original.json`.",
+            "`original.md` / `original.yaml`.",
             "Not the 1794 Reformed Reader recension in Creeds.json.",
         ],
     )
@@ -269,7 +268,7 @@ def ingest_1646() -> None:
         "First London Baptist Confession (1646)",
         [
             "Second impression, corrected and enlarged. 1644 is not included.",
-            "`original.md` / `original.json`.",
+            "`original.md` / `original.yaml`.",
         ],
     )
     print("1646")
@@ -377,7 +376,7 @@ def ingest_abstract() -> None:
         "Abstract of Principles (1858)",
         [
             "SBTS faculty oath. Public domain (US, published 1858).",
-            "`original.md` / `original.json`.",
+            "`original.md` / `original.yaml`.",
         ],
     )
     print("abstract")
@@ -394,7 +393,7 @@ def ingest_charleston() -> None:
         [
             "Baptist Association in Charleston, South Carolina. Public domain.",
             "Formatted from [Founders](https://founders.org/library/a-summary-of-church-discipline/).",
-            "`original.md` / `original.json`.",
+            "`original.md` / `original.yaml`.",
         ],
     )
     print("charleston")
@@ -469,18 +468,16 @@ def ingest_savoy() -> None:
     }
     md = json_to_markdown(doc, extra)
     d = TEXTS / "1658-savoy-declaration"
-    write_pair(d, "original", md, None)
-    # keep Data from parsed TEI
     converted = md_to_json(md)
     converted["Data"] = chapters
     converted["Metadata"] = doc["Metadata"]
-    (d / "original.json").write_text(json.dumps(converted, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    write_pair(d, "original", md, converted)
     write_readme(
         d,
         "Savoy Declaration (1658)",
         [
             "Public-domain TCP/EEBO transcription (CC0), not the copyrighted Reformed Standards JSON in Creeds.json.",
-            "`original.md` / `original.json`. Long-s characters have been normalized.",
+            "`original.md` / `original.yaml`. Long-s characters have been normalized.",
         ],
     )
     print("savoy chapters", len(chapters))
@@ -491,70 +488,17 @@ def collins_json() -> None:
     for stem in ("original-1680", "modern-english"):
         md = (d / f"{stem}.md").read_text(encoding="utf-8")
         doc = md_to_json(md, "Catechism")
-        (d / f"{stem}.json").write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        (d / f"{stem}.yaml").write_text(dump_doc(doc), encoding="utf-8")
         print("collins", stem, "qs", len(doc["Data"]))
     readme = (d / "README.md").read_text(encoding="utf-8")
-    extra = "\nJSON siblings: `original-1680.json` and `modern-english.json`.\n"
-    if "JSON siblings" not in readme:
+    extra = "\nYAML siblings: `original-1680.yaml` and `modern-english.yaml`.\n"
+    if "YAML siblings" not in readme and "JSON siblings" not in readme:
         (d / "README.md").write_text(readme.rstrip() + extra, encoding="utf-8")
 
 
 def write_root_readme() -> None:
-    (ROOT / "README.md").write_text(
-        """# Christian Texts
-
-Markdown and JSON sources for public-domain Christian texts. This repository is a corpus, not an app.
-
-- **Markdown** is for reading (agents and people).
-- **JSON** uses the Creeds.json shape (`Metadata` + `Data`) for structured lookup.
-
-Each text file has YAML frontmatter:
-
-```yaml
----
-title: An Orthodox Catechism
-author: Hercules Collins
-date: 1680
-edition: modern English
-source: https://1689.com/an-orthodox-catechism
-retrieved: 2026-04-19
----
-```
-
-- `date` — first publication
-- `source` — edition this file was taken from
-- `retrieved` — when that copy was pulled (ISO 8601)
-
-## Texts
-
-| Work | Files |
-| --- | --- |
-| [Apostles' Creed](texts/apostles-creed/) | [md](texts/apostles-creed/original.md) · [json](texts/apostles-creed/original.json) |
-| [Nicene Creed](texts/nicene-creed/) | [md](texts/nicene-creed/original.md) · [json](texts/nicene-creed/original.json) |
-| [Athanasian Creed](texts/athanasian-creed/) | [md](texts/athanasian-creed/original.md) · [json](texts/athanasian-creed/original.json) |
-| [Chalcedonian Definition](texts/chalcedonian-definition/) | [md](texts/chalcedonian-definition/original.md) · [json](texts/chalcedonian-definition/original.json) |
-| [Canons of Dort](texts/canons-of-dort/) (1619) | [md](texts/canons-of-dort/original.md) · [json](texts/canons-of-dort/original.json) |
-| [Savoy Declaration](texts/1658-savoy-declaration/) (1658) | [md](texts/1658-savoy-declaration/original.md) · [json](texts/1658-savoy-declaration/original.json) |
-| [First London Confession](texts/1646-first-london/) (1646) | [md](texts/1646-first-london/original.md) · [json](texts/1646-first-london/original.json) |
-| [Second London Confession](texts/1689-london-baptist-confession/) (1677/1689) | [md](texts/1689-london-baptist-confession/original.md) · [json](texts/1689-london-baptist-confession/original.json) |
-| [An Orthodox Catechism](texts/1680-an-orthodox-catechism/) (Collins, 1680) | [original md](texts/1680-an-orthodox-catechism/original-1680.md) · [original json](texts/1680-an-orthodox-catechism/original-1680.json) · [modern md](texts/1680-an-orthodox-catechism/modern-english.md) · [modern json](texts/1680-an-orthodox-catechism/modern-english.json) |
-| [Baptist Catechism](texts/1693-baptist-catechism/) (Keach / Collins, 1693) | [md](texts/1693-baptist-catechism/original.md) · [json](texts/1693-baptist-catechism/original.json) |
-| [Catechism for Boys and Girls](texts/catechism-for-boys-and-girls/) (Hulse / Chapel Library) | [md](texts/catechism-for-boys-and-girls/original.md) · [json](texts/catechism-for-boys-and-girls/original.json) |
-| [Abstract of Principles](texts/abstract-of-principles/) (1858) | [md](texts/abstract-of-principles/original.md) · [json](texts/abstract-of-principles/original.json) |
-| [Charleston Summary of Church Discipline](texts/1774-charleston-church-discipline/) (1774) | [md](texts/1774-charleston-church-discipline/original.md) · [json](texts/1774-charleston-church-discipline/original.json) |
-
-The 1644 First London Confession is not included (1646 only).
-
-## Stan Reeves modern 1689
-
-Not in this repo. Reeves’s modern English is copyrighted. Print copies for church use are allowed; posting on the internet is not. See [Founders](https://founders.org/library-book/1689-confession/) and [reeveshome.org/modern1689](https://reeveshome.org/modern1689/1689_modern.pdf).
-
-## License
-
-Historical texts here are in the public domain (or CC0 TCP for Savoy). The Catechism for Boys and Girls is the Chapel Library / Errol Hulse booklet (© 1998; reproduction allowed with their notice). Repository scaffolding is CC0 (see `LICENSE`).
-""",
-        encoding="utf-8",
-    )
+    src = Path(__file__).resolve().parent.parent / "README.md"
+    (ROOT / "README.md").write_text(src.read_text(encoding="utf-8"), encoding="utf-8")
 
 
 def main() -> None:
@@ -567,7 +511,7 @@ def main() -> None:
     ingest_charleston()
     ingest_savoy()
     write_root_readme()
-    # Rebuild JSON from markdown so parsers stay in sync
+    # Rebuild YAML from markdown so parsers stay in sync
     for md in sorted(TEXTS.glob("*/*.md")):
         if md.name == "README.md":
             continue
@@ -581,9 +525,7 @@ def main() -> None:
         }:
             continue
         doc = md_to_json(md.read_text(encoding="utf-8"))
-        md.with_suffix(".json").write_text(
-            json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
-        )
+        md.with_suffix(".yaml").write_text(dump_doc(doc), encoding="utf-8")
         print("rebuilt", md.relative_to(TEXTS))
     print("done")
 

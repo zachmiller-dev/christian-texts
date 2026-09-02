@@ -1,4 +1,4 @@
 # Athanasian Creed
 
-Markdown: `original.md`. JSON: `original.json`.
+Markdown: `original.md`. YAML: `original.yaml`.
 Public domain.

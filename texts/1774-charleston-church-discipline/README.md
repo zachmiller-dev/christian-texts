@@ -4,4 +4,4 @@ Baptist Association in Charleston, South Carolina. Public domain.
 
 Formatted from [Founders](https://founders.org/library/a-summary-of-church-discipline/).
 
-`original.md` / `original.json`.
+`original.md` / `original.yaml`.
