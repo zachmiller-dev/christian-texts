@@ -15,6 +15,129 @@ from ruamel.yaml.scalarstring import LiteralScalarString
 
 _BLOCK_SCALAR_KEYS = frozenset({"Content", "Answer", "AnswerWithProofs"})
 
+
+def _flatten_proof_refs(proofs: list[dict[str, Any]] | None) -> list[str]:
+    refs: list[str] = []
+    for proof in proofs or []:
+        if isinstance(proof, dict):
+            refs.extend(proof.get("References") or [])
+        else:
+            refs.append(str(proof))
+    return refs
+
+
+def _proofs_from_refs(refs: list[str]) -> list[dict[str, Any]]:
+    return [{"Id": i + 1, "References": [r]} for i, r in enumerate(refs)]
+
+
+def doc_to_yaml_shape(doc: dict[str, Any]) -> dict[str, Any]:
+    """Map Creeds.json-shaped docs to queryable YAML with proofs as sibling sections."""
+    meta = doc["Metadata"]
+    fmt = meta.get("CreedFormat") or "Creed"
+    data = doc["Data"]
+    out: dict[str, Any] = {"Metadata": meta}
+
+    if fmt == "Creed" and isinstance(data, dict):
+        out["Data"] = {"Sections": [{"Section": "Content", "Content": data.get("Content", "")}]}
+    elif fmt == "Catechism" and isinstance(data, list):
+        items: list[dict[str, Any]] = []
+        for item in data:
+            sections: list[dict[str, Any]] = [
+                {"Section": "Question", "Content": item.get("Question", "")},
+                {"Section": "Answer", "Content": item.get("Answer", "")},
+            ]
+            awp = item.get("AnswerWithProofs", "")
+            if awp and awp != item.get("Answer", ""):
+                sections.append({"Section": "AnswerWithProofs", "Content": awp})
+            refs = _flatten_proof_refs(item.get("Proofs"))
+            if refs:
+                sections.append({"Section": "Proofs", "References": refs})
+            items.append({"Number": item.get("Number"), "Sections": sections})
+        out["Data"] = items
+    elif isinstance(data, list):
+        chapters: list[dict[str, Any]] = []
+        for ch in data:
+            sections: list[dict[str, Any]] = []
+            for sec in ch.get("Sections") or []:
+                sections.append({"Section": sec.get("Section", ""), "Content": sec.get("Content", "")})
+                refs = _flatten_proof_refs(sec.get("Proofs"))
+                if refs:
+                    sections.append({"Section": "Proofs", "References": refs})
+            chapters.append(
+                {"Chapter": ch.get("Chapter", ""), "Title": ch.get("Title", ""), "Sections": sections}
+            )
+        out["Data"] = chapters
+    else:
+        out["Data"] = data
+    return out
+
+
+def yaml_shape_to_doc(doc: dict[str, Any]) -> dict[str, Any]:
+    """Restore Creeds.json-shaped docs from queryable YAML."""
+    meta = doc["Metadata"]
+    fmt = meta.get("CreedFormat") or "Creed"
+    data = doc["Data"]
+    out: dict[str, Any] = {"Metadata": meta}
+
+    if fmt == "Creed" and isinstance(data, dict) and "Sections" in data:
+        content = ""
+        for sec in data.get("Sections") or []:
+            if sec.get("Section") == "Content":
+                content = sec.get("Content", "")
+        out["Data"] = {"Content": content}
+    elif fmt == "Catechism" and isinstance(data, list) and data and "Sections" in data[0]:
+        items: list[dict[str, Any]] = []
+        for item in data:
+            question = ""
+            answer = ""
+            answer_with_proofs = ""
+            refs: list[str] = []
+            for sec in item.get("Sections") or []:
+                label = sec.get("Section", "")
+                if label == "Question":
+                    question = sec.get("Content", "")
+                elif label == "Answer":
+                    answer = sec.get("Content", "")
+                elif label == "AnswerWithProofs":
+                    answer_with_proofs = sec.get("Content", "")
+                elif label == "Proofs":
+                    refs.extend(sec.get("References") or [])
+            items.append(
+                {
+                    "Number": item.get("Number"),
+                    "Question": question,
+                    "Answer": answer,
+                    "AnswerWithProofs": answer_with_proofs or answer,
+                    "Proofs": _proofs_from_refs(refs),
+                }
+            )
+        out["Data"] = items
+    elif isinstance(data, list) and data and "Sections" in data[0]:
+        chapters: list[dict[str, Any]] = []
+        for ch in data:
+            sections: list[dict[str, Any]] = []
+            pending: dict[str, Any] | None = None
+            for sec in ch.get("Sections") or []:
+                label = sec.get("Section", "")
+                if label == "Proofs":
+                    if pending is not None:
+                        pending["Proofs"] = _proofs_from_refs(sec.get("References") or [])
+                        sections.append(pending)
+                        pending = None
+                else:
+                    if pending is not None:
+                        sections.append(pending)
+                    pending = {"Section": label, "Content": sec.get("Content", "")}
+            if pending is not None:
+                sections.append(pending)
+            chapters.append(
+                {"Chapter": ch.get("Chapter", ""), "Title": ch.get("Title", ""), "Sections": sections}
+            )
+        out["Data"] = chapters
+    else:
+        out["Data"] = data
+    return out
+
 _yaml = YAML()
 _yaml.default_flow_style = False
 _yaml.allow_unicode = True
@@ -324,7 +447,7 @@ def _apply_block_scalars(value: Any, key: str | None = None) -> Any:
 
 
 def dump_doc(doc: dict[str, Any]) -> str:
-    styled = _apply_block_scalars(_to_plain(doc))
+    styled = _apply_block_scalars(_to_plain(doc_to_yaml_shape(doc)))
     buf = io.StringIO()
     _yaml.dump(styled, buf)
     return buf.getvalue()
@@ -334,7 +457,7 @@ def load_doc(text: str) -> dict[str, Any]:
     loaded = _yaml.load(text)
     if not isinstance(loaded, dict):
         raise ValueError("corpus document must be a mapping at top level")
-    return _to_plain(loaded)
+    return yaml_shape_to_doc(_to_plain(loaded))
 
 
 def normalize_doc(doc: dict[str, Any]) -> dict[str, Any]:

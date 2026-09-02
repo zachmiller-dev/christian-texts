@@ -24,14 +24,14 @@ retrieved: 2026-04-19
 
 ## Queryable YAML
 
-Structured siblings use block scalars for long prose so fields are addressable with [yq](https://github.com/mikefarah/yq):
+Structured siblings use literal block scalars (`|-`) for long prose so paragraph breaks are preserved. Proofs are sibling sections under each content block, not nested keys.
 
 ```bash
-# Catechism question 1
-yq '.Data[] | select(.Number == 1)' texts/1693-baptist-catechism/original.yaml
+# Catechism question 1 (Question, Answer, Proofs as sections)
+yq '.Data[] | select(.Number == 1) | .Sections[]' texts/1693-baptist-catechism/original.yaml
 
-# Confession chapter 1, section 1
-yq '.Data[] | select(.Chapter == "1") | .Sections[] | select(.Section == "1")' \
+# Confession section 1 content and its proofs block
+yq '.Data[] | select(.Title == "Of the Holy Scriptures") | .Sections[] | select(.Section == "1" or .Section == "Proofs")' \
   texts/1689-london-baptist-confession/original.yaml
 ```
 
