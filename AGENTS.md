@@ -28,3 +28,7 @@ Rules:
 ## Treatises vs confessions/catechisms
 
 Some works keep Scripture proofs inline in prose (treatises / discipline manuals). Confessions and catechisms use `*Proofs:*` blocks. Do not invent citation schemes.
+
+## OKF mirror
+
+An OKF v0.2 knowledge bundle lives under `okf/` (same edition naming as `texts/`). See `okf/naming-strategy.md`.

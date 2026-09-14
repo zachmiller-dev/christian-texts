@@ -64,6 +64,10 @@ Some works (handbooks, discipline manuals) keep Scripture proofs **inline** in t
 - Duty and case enumerations (`(1) … (2) …`) become markdown ordered lists when they enumerate distinct items.
 - Gill quotations and similar attributions stay in `"` with attribution.
 
+## OKF
+
+An [OKF v0.2](./okf/) knowledge mirror of the corpus lives under `okf/` (agent-oriented; same edition naming as `texts/`).
+
 ## Texts
 
 | Work | Files |
