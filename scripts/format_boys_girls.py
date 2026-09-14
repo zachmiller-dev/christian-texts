@@ -257,12 +257,12 @@ def main() -> None:
     doc["Metadata"]["SourceAttribution"] = (
         "© 1998 Chapel Library; reproduction permitted with copyright notice"
     )
-    write_pair(OUT_DIR, "original", md, doc)
+    write_pair(OUT_DIR, "text", md, doc)
     (OUT_DIR / "README.md").write_text(
         "# A Catechism for Boys and Girls (Errol Hulse)\n\n"
         "134 questions in six parts, Chapel Library booklet.\n"
         f"Source: [{PDF}]({PDF}).\n"
-        "`original.md` / `original.yaml`.\n"
+        "`text.md` / `text.yaml`.\n"
         "© 1998 Chapel Library. They grant reproduction if the copyright notice "
         "is kept and copies are not sold beyond duplication cost.\n",
         encoding="utf-8",

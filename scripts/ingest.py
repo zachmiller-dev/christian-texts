@@ -78,12 +78,12 @@ def import_creeds_json() -> None:
         converted["Data"] = doc["Data"]
         converted["Metadata"]["CreedFormat"] = doc["Metadata"]["CreedFormat"]
         converted["Metadata"]["SourceUrl"] = extra["source"]
-        write_pair(d, "original", md, converted)
+        write_pair(d, "text", md, converted)
         write_readme(
             d,
             title,
             [
-                "Markdown: `original.md`. YAML: `original.yaml`.",
+                "Markdown: `text.md`. YAML: `text.yaml`.",
                 f"Imported from Creeds.json (`{fname}`), public domain.",
             ],
         )
@@ -146,12 +146,12 @@ def ingest_1689() -> None:
     if not md.endswith("\n"):
         md += "\n"
     d = TEXTS / "1689-london-baptist-confession"
-    write_pair(d, "original", md)
+    write_pair(d, "text", md)
     write_readme(
         d,
         "Second London Baptist Confession (1677/1689)",
         [
-            "Original wording from 1689.com: `original.md` / `original.yaml`.",
+            "Original wording from 1689.com: `text.md` / `text.yaml`.",
             "",
             "Stan Reeves’s modern English is copyrighted and is **not** in this repository.",
             "Read it on [Founders](https://founders.org/library-book/1689-confession/) or the author’s site ([reeveshome.org/modern1689](https://reeveshome.org/modern1689/1689_modern.pdf)).",
@@ -177,13 +177,13 @@ def ingest_keach() -> None:
     }
     md = dump_frontmatter(front) + "# The Baptist Catechism\n\n" + body.lstrip()
     d = TEXTS / "1693-baptist-catechism"
-    write_pair(d, "original", md)
+    write_pair(d, "text", md)
     write_readme(
         d,
         "The Baptist Catechism (Keach / Collins, 1693)",
         [
             "114 questions from the Commonplace vault / 1689.com.",
-            "`original.md` / `original.yaml`.",
+            "`text.md` / `text.yaml`.",
             "Not the 1794 Reformed Reader recension in Creeds.json.",
         ],
     )
@@ -262,13 +262,13 @@ def ingest_1646() -> None:
     }
     md = dump_frontmatter(front) + "# First London Baptist Confession\n\n" + body.lstrip()
     d = TEXTS / "1646-first-london"
-    write_pair(d, "original", md)
+    write_pair(d, "text", md)
     write_readme(
         d,
         "First London Baptist Confession (1646)",
         [
             "Second impression, corrected and enlarged. 1644 is not included.",
-            "`original.md` / `original.yaml`.",
+            "`text.md` / `text.yaml`.",
         ],
     )
     print("1646")
@@ -370,13 +370,13 @@ def ingest_abstract() -> None:
     }
     md = dump_frontmatter(front) + "# Abstract of Principles\n\n" + body.lstrip()
     d = TEXTS / "abstract-of-principles"
-    write_pair(d, "original", md)
+    write_pair(d, "text", md)
     write_readme(
         d,
         "Abstract of Principles (1858)",
         [
             "SBTS faculty oath. Public domain (US, published 1858).",
-            "`original.md` / `original.yaml`.",
+            "`text.md` / `text.yaml`.",
         ],
     )
     print("abstract")
@@ -393,7 +393,7 @@ def ingest_charleston() -> None:
         [
             "Baptist Association in Charleston, South Carolina. Public domain.",
             "Formatted from [Founders](https://founders.org/library/a-summary-of-church-discipline/).",
-            "`original.md` / `original.yaml`.",
+            "`text.md` / `text.yaml`.",
         ],
     )
     print("charleston")
@@ -471,13 +471,13 @@ def ingest_savoy() -> None:
     converted = md_to_json(md)
     converted["Data"] = chapters
     converted["Metadata"] = doc["Metadata"]
-    write_pair(d, "original", md, converted)
+    write_pair(d, "text", md, converted)
     write_readme(
         d,
         "Savoy Declaration (1658)",
         [
             "Public-domain TCP/EEBO transcription (CC0), not the copyrighted Reformed Standards JSON in Creeds.json.",
-            "`original.md` / `original.yaml`. Long-s characters have been normalized.",
+            "`text.md` / `text.yaml`. Long-s characters have been normalized.",
         ],
     )
     print("savoy chapters", len(chapters))
@@ -485,13 +485,13 @@ def ingest_savoy() -> None:
 
 def collins_json() -> None:
     d = TEXTS / "1680-an-orthodox-catechism"
-    for stem in ("original-1680", "modern-english"):
+    for stem in ("1680", "modern-english"):
         md = (d / f"{stem}.md").read_text(encoding="utf-8")
         doc = md_to_json(md, "Catechism")
         (d / f"{stem}.yaml").write_text(dump_doc(doc), encoding="utf-8")
         print("collins", stem, "qs", len(doc["Data"]))
     readme = (d / "README.md").read_text(encoding="utf-8")
-    extra = "\nYAML siblings: `original-1680.yaml` and `modern-english.yaml`.\n"
+    extra = "\nYAML siblings: `1680.yaml` and `modern-english.yaml`.\n"
     if "YAML siblings" not in readme and "JSON siblings" not in readme:
         (d / "README.md").write_text(readme.rstrip() + extra, encoding="utf-8")
 
@@ -515,7 +515,7 @@ def main() -> None:
     for md in sorted(TEXTS.glob("*/*.md")):
         if md.name == "README.md":
             continue
-        if md.name == "original.md" and md.parent.name in {
+        if md.name == "text.md" and md.parent.name in {
             "apostles-creed",
             "nicene-creed",
             "athanasian-creed",

@@ -1,4 +1,4 @@
 # Nicene Creed
 
-Markdown: `original.md`. YAML: `original.yaml`.
+Markdown: `text.md`. YAML: `text.yaml`.
 Public domain.
