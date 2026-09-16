@@ -1,5 +1,5 @@
 # The Baptist Catechism (Keach / Collins, 1693)
 
 114 questions.
-`original.md` / `original.yaml`.
+`text.md` / `text.yaml`.
 Not the 1794 recension.

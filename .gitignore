@@ -3,3 +3,6 @@
 agent-tools/
 node_modules/
 .next/
+
+__pycache__/
+*.py[cod]

@@ -30,11 +30,11 @@ Structured siblings use literal block scalars (`|-`) for long prose so paragraph
 
 ```bash
 # Catechism question 1 (Question, Answer, Proofs as sections)
-yq '.Data[] | select(.Number == 1) | .Sections[]' texts/1693-baptist-catechism/original.yaml
+yq '.Data[] | select(.Number == 1) | .Sections[]' texts/1693-baptist-catechism/text.yaml
 
 # Confession section 1 content and its proofs block
 yq '.Data[] | select(.Title == "Of the Holy Scriptures") | .Sections[] | select(.Section == "1" or .Section == "Proofs")' \
-  texts/1689-london-baptist-confession/original.yaml
+  texts/1689-london-baptist-confession/text.yaml
 ```
 
 To export Creeds.json-compatible JSON on demand:
@@ -64,23 +64,27 @@ Some works (handbooks, discipline manuals) keep Scripture proofs **inline** in t
 - Duty and case enumerations (`(1) … (2) …`) become markdown ordered lists when they enumerate distinct items.
 - Gill quotations and similar attributions stay in `"` with attribution.
 
+## OKF
+
+An [OKF v0.2](./okf/) knowledge mirror of the corpus lives under `okf/` (agent-oriented; same edition naming as `texts/`).
+
 ## Texts
 
 | Work | Files |
 | --- | --- |
-| [Apostles' Creed](texts/apostles-creed/) | [md](texts/apostles-creed/original.md) · [yaml](texts/apostles-creed/original.yaml) |
-| [Nicene Creed](texts/nicene-creed/) | [md](texts/nicene-creed/original.md) · [yaml](texts/nicene-creed/original.yaml) |
-| [Athanasian Creed](texts/athanasian-creed/) | [md](texts/athanasian-creed/original.md) · [yaml](texts/athanasian-creed/original.yaml) |
-| [Chalcedonian Definition](texts/chalcedonian-definition/) | [md](texts/chalcedonian-definition/original.md) · [yaml](texts/chalcedonian-definition/original.yaml) |
-| [Canons of Dort](texts/canons-of-dort/) (1619) | [md](texts/canons-of-dort/original.md) · [yaml](texts/canons-of-dort/original.yaml) |
-| [Savoy Declaration](texts/1658-savoy-declaration/) (1658) | [md](texts/1658-savoy-declaration/original.md) · [yaml](texts/1658-savoy-declaration/original.yaml) |
-| [First London Confession](texts/1646-first-london/) (1646) | [md](texts/1646-first-london/original.md) · [yaml](texts/1646-first-london/original.yaml) |
-| [Second London Confession](texts/1689-london-baptist-confession/) (1677/1689) | [md](texts/1689-london-baptist-confession/original.md) · [yaml](texts/1689-london-baptist-confession/original.yaml) |
-| [An Orthodox Catechism](texts/1680-an-orthodox-catechism/) (Collins, 1680) | [original md](texts/1680-an-orthodox-catechism/original-1680.md) · [original yaml](texts/1680-an-orthodox-catechism/original-1680.yaml) · [modern md](texts/1680-an-orthodox-catechism/modern-english.md) · [modern yaml](texts/1680-an-orthodox-catechism/modern-english.yaml) |
-| [Baptist Catechism](texts/1693-baptist-catechism/) (Keach / Collins, 1693) | [md](texts/1693-baptist-catechism/original.md) · [yaml](texts/1693-baptist-catechism/original.yaml) |
-| [Catechism for Boys and Girls](texts/catechism-for-boys-and-girls/) (Hulse / Chapel Library) | [md](texts/catechism-for-boys-and-girls/original.md) · [yaml](texts/catechism-for-boys-and-girls/original.yaml) |
-| [Abstract of Principles](texts/abstract-of-principles/) (1858) | [md](texts/abstract-of-principles/original.md) · [yaml](texts/abstract-of-principles/original.yaml) |
-| [Charleston Summary of Church Discipline](texts/1774-charleston-church-discipline/) (1774) | [md](texts/1774-charleston-church-discipline/original.md) · [yaml](texts/1774-charleston-church-discipline/original.yaml) |
+| [Apostles' Creed](texts/apostles-creed/) | [md](texts/apostles-creed/text.md) · [yaml](texts/apostles-creed/text.yaml) |
+| [Nicene Creed](texts/nicene-creed/) | [md](texts/nicene-creed/text.md) · [yaml](texts/nicene-creed/text.yaml) |
+| [Athanasian Creed](texts/athanasian-creed/) | [md](texts/athanasian-creed/text.md) · [yaml](texts/athanasian-creed/text.yaml) |
+| [Chalcedonian Definition](texts/chalcedonian-definition/) | [md](texts/chalcedonian-definition/text.md) · [yaml](texts/chalcedonian-definition/text.yaml) |
+| [Canons of Dort](texts/canons-of-dort/) (1619) | [md](texts/canons-of-dort/text.md) · [yaml](texts/canons-of-dort/text.yaml) |
+| [Savoy Declaration](texts/1658-savoy-declaration/) (1658) | [md](texts/1658-savoy-declaration/text.md) · [yaml](texts/1658-savoy-declaration/text.yaml) |
+| [First London Confession](texts/1646-first-london/) (1646) | [md](texts/1646-first-london/text.md) · [yaml](texts/1646-first-london/text.yaml) |
+| [Second London Confession](texts/1689-london-baptist-confession/) (1677/1689) | [md](texts/1689-london-baptist-confession/text.md) · [yaml](texts/1689-london-baptist-confession/text.yaml) |
+| [An Orthodox Catechism](texts/1680-an-orthodox-catechism/) (Collins, 1680) | [1680 md](texts/1680-an-orthodox-catechism/1680.md) · [1680 yaml](texts/1680-an-orthodox-catechism/1680.yaml) · [modern md](texts/1680-an-orthodox-catechism/modern-english.md) · [modern yaml](texts/1680-an-orthodox-catechism/modern-english.yaml) |
+| [Baptist Catechism](texts/1693-baptist-catechism/) (Keach / Collins, 1693) | [md](texts/1693-baptist-catechism/text.md) · [yaml](texts/1693-baptist-catechism/text.yaml) |
+| [Catechism for Boys and Girls](texts/catechism-for-boys-and-girls/) (Hulse / Chapel Library) | [md](texts/catechism-for-boys-and-girls/text.md) · [yaml](texts/catechism-for-boys-and-girls/text.yaml) |
+| [Abstract of Principles](texts/abstract-of-principles/) (1858) | [md](texts/abstract-of-principles/text.md) · [yaml](texts/abstract-of-principles/text.yaml) |
+| [Charleston Summary of Church Discipline](texts/1774-charleston-church-discipline/) (1774) | [md](texts/1774-charleston-church-discipline/text.md) · [yaml](texts/1774-charleston-church-discipline/text.yaml) |
 
 The 1644 First London Confession is not included (1646 only).
 

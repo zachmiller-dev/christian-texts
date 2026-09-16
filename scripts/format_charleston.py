@@ -417,10 +417,10 @@ def main() -> None:
     body = extract_body(raw)
     md = build_markdown(body)
     validate_output(body, md)
-    write_pair(OUT_DIR, "original", md)
+    write_pair(OUT_DIR, "text", md)
     doc = md_to_json(md)
     sections = sum(len(ch.get("Sections") or []) for ch in doc.get("Data") or [])
-    print(f"Wrote {OUT_DIR / 'original.md'} ({sections} JSON sections)")
+    print(f"Wrote {OUT_DIR / 'text.md'} ({sections} JSON sections)")
 
 
 if __name__ == "__main__":
